@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Bai3_WebBanHang.Models.PaymentMethod>
+
+@if (Model != null && Model.Any())
+{
+    foreach (var paymentMethod in Model)
+    {
+        <option value="@paymentMethod.Code">@paymentMethod.Name</option>
+    }
+}
+else
+{
+    <option value="">Không có phương thức thanh toán</option>
+}

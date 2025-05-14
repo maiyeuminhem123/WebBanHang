@@ -1,0 +1,42 @@
+﻿@model Bai3_WebBanHang.Models.Product
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Chi tiết sản phẩm</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        @if (!string.IsNullOrEmpty(Model?.ImageUrl))
+                        {
+                            <img src="@Model.ImageUrl" alt="@Model.Name" class="card-img" style="max-height: 250px; object-fit: cover;" />
+                        }
+                        else
+                        {
+                            <div class="d-flex align-items-center justify-content-center" style="height: 250px; background-color: #f8f9fa;">
+                                <span>Không có hình ảnh.</span>
+                            </div>
+                        }
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">@Html.DisplayFor(model => model.Name)</h5>
+                            <hr />
+                            <p class="card-text"><strong>Giá:</strong> @Model?.Price.ToString("#,##0") VNĐ</p>
+                            <p class="card-text"><strong>Mô tả:</strong> @Html.DisplayFor(model => model.Description)</p>
+                            <p class="card-text"><strong>Danh mục:</strong> @(Model?.Category != null ? Model.Category.Name : "Không có danh mục")</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

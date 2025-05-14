@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Bai3_WebBanHang.Models.Category>
+
+@if (Model != null && Model.Any())
+{
+    foreach (var category in Model)
+    {
+        <li>
+            <a class="dropdown-item" asp-controller="Home" asp-action="ProductsByCategory" asp-route-categoryId="@category.Id">
+                @category.Name
+            </a>
+        </li>
+    }
+    <li><hr class="dropdown-divider"></li>
+    <li>
+        <a class="dropdown-item" asp-controller="Home" asp-action="ProductsByCategory">
+            Tất cả danh mục
+        </a>
+    </li>
+}
+else
+{
+    <li><a class="dropdown-item" href="#">Không có danh mục</a></li>
+}

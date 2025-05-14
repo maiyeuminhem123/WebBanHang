@@ -1,0 +1,291 @@
+﻿@using Bai3_WebBanHang.Models
+@model Order
+
+@{
+    ViewData["Title"] = "Thông Tin Đặt Hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">🛒 Thông Tin Đặt Hàng</h2>
+
+    <!-- Thanh trạng thái -->
+    <div class="d-flex justify-content-between align-items-center mb-5 p-3 rounded" style="background-color: #f8d7da; border-radius: 10px;">
+        <div class="text-center step">
+            <span class="badge bg-light rounded-circle p-2 text-dark"><i class="fas fa-shopping-cart"></i></span>
+            <p class="mb-0">Giỏ hàng</p>
+        </div>
+        <div class="text-center step active">
+            <span class="badge bg-danger rounded-circle p-2"><i class="fas fa-user"></i></span>
+            <p class="mb-0">Thông tin đặt hàng</p>
+        </div>
+        <div class="text-center step">
+            <span class="badge bg-light rounded-circle p-2 text-dark"><i class="fas fa-credit-card"></i></span>
+            <p class="mb-0">Thanh toán</p>
+        </div>
+        <div class="text-center step">
+            <span class="badge bg-light rounded-circle p-2 text-dark"><i class="fas fa-check"></i></span>
+            <p class="mb-0">Hoàn tất</p>
+        </div>
+    </div>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["Error"]
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+    }
+
+    <form id="checkoutForm" asp-action="Checkout" asp-controller="ShoppingCart" method="post">
+        <!-- Step 1: Thông tin khách hàng -->
+        <div class="form-step" id="form-step-0">
+            <div class="card shadow-sm p-4 mb-4">
+                <h3 class="mb-4">Thông tin khách mua hàng</h3>
+
+                <!-- Xưng hô -->
+                <div class="mb-4">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="male" value="Anh" checked>
+                        <label class="form-check-label" for="male">Anh</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="female" value="Chị">
+                        <label class="form-check-label" for="female">Chị</label>
+                    </div>
+                </div>
+
+                <!-- Thông tin khách hàng -->
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <label asp-for="CustomerName" class="form-label">Họ và tên</label>
+                        <input asp-for="CustomerName" class="form-control" placeholder="Nhập họ tên" required />
+                        <span asp-validation-for="CustomerName" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="PhoneNumber" class="form-label">Số điện thoại</label>
+                        <input asp-for="PhoneNumber" class="form-control" placeholder="Nhập số điện thoại" required />
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <label asp-for="Email" class="form-label">Email</label>
+                        <input asp-for="Email" class="form-control" placeholder="Nhập email" required />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Chọn cách nhận hàng -->
+                <h5 class="mb-3">Chọn cách nhận hàng</h5>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="radio" name="deliveryMethod" id="homeDelivery" checked>
+                    <label class="form-check-label" for="homeDelivery">Giao hàng tận nơi</label>
+                </div>
+
+                <!-- Chọn địa chỉ -->
+                <div class="card p-3 mb-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="form-label">Chọn Tỉnh, Thành phố</label>
+                            <select name="province" class="form-control" onchange="updateDistricts()">
+                                <option value="Thành phố Hồ Chí Minh" selected>Thành phố Hồ Chí Minh</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Chọn Quận, Huyện</label>
+                            <select name="district" id="district" class="form-control" onchange="updateWards()" required>
+                                <option value="">Chọn Quận/Huyện</option>
+                                @foreach (var district in ViewBag.Districts)
+                                {
+                                    <option value="@district">@district</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Chọn Phường, Xã</label>
+                            <select name="ward" id="ward" class="form-control" required>
+                                <option value="">Chọn Phường/Xã</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Số nhà, tên đường</label>
+                            <input name="street" class="form-control" placeholder="Ví dụ: 123/45 Nguyễn Văn A" required />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ghi chú -->
+                <div class="mb-4">
+                    <label asp-for="Notes" class="form-label">Lưu ý, yêu cầu khác (Không bắt buộc)</label>
+                    <textarea asp-for="Notes" class="form-control" rows="3"></textarea>
+                    <span asp-validation-for="Notes" class="text-danger"></span>
+                </div>
+
+                <!-- Xuất hóa đơn -->
+                <div class="form-check mb-4">
+                    <input class="form-check-input" type="checkbox" id="invoice">
+                    <label class="form-check-label" for="invoice">Xuất hóa đơn cho đơn hàng</label>
+                </div>
+
+                <!-- Tổng tiền -->
+                <div class="d-flex justify-content-between align-items-center mb-4 p-3 bg-light rounded">
+                    <h5 class="mb-0">Tổng tiền:</h5>
+                    <h5 class="text-danger mb-0">@Model.TotalPrice.ToString("N0")đ</h5>
+                </div>
+
+                <!-- Nút tiếp theo -->
+                <button type="button" class="btn btn-danger btn-lg w-100 next-btn">ĐẶT HÀNG NGAY</button>
+            </div>
+        </div>
+        <!-- Hidden input để lưu địa chỉ đầy đủ -->
+        <input type="hidden" name="ShippingAddress" />
+    </form>
+</div>
+
+<style>
+    .step {
+        flex: 1;
+        transition: all 0.3s ease;
+    }
+
+        .step.active .badge {
+            background-color: #dc3545 !important;
+            color: white !important;
+        }
+
+        .step.active p {
+            font-weight: bold;
+            color: #000;
+        }
+
+    .badge {
+        font-size: 1.2rem;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Danh sách Phường/Xã theo Quận/Huyện
+        const wards = @Html.Raw(Json.Serialize(ViewBag.Wards));
+
+        function updateDistricts() {
+            updateWards();
+        }
+
+        function updateWards() {
+            const district = document.getElementById("district").value;
+            const wardSelect = document.getElementById("ward");
+            wardSelect.innerHTML = '<option value="">Chọn Phường/Xã</option>';
+
+            if (district && wards[district]) {
+                wards[district].forEach(ward => {
+                    const option = document.createElement("option");
+                    option.value = ward;
+                    option.text = ward;
+                    wardSelect.appendChild(option);
+                });
+            }
+        }
+
+        // Wizard logic
+        const steps = document.querySelectorAll(".step");
+        const formSteps = document.querySelectorAll(".form-step");
+        const nextBtns = document.querySelectorAll(".next-btn");
+        const prevBtns = document.querySelectorAll(".prev-btn");
+        let currentStep = 0;
+
+        function updateStepDisplay() {
+            steps.forEach(step => step.classList.remove("active"));
+            steps[currentStep + 1].classList.add("active");
+            formSteps.forEach((step, index) => {
+                step.classList.toggle("d-none", index !== currentStep);
+            });
+        }
+
+        nextBtns.forEach(btn => {
+            btn.addEventListener("click", () => {
+                // Kiểm tra thông tin khách hàng trước khi chuyển bước
+                const customerName = document.querySelector('input[name="CustomerName"]').value;
+                const phoneNumber = document.querySelector('input[name="PhoneNumber"]').value;
+                const email = document.querySelector('input[name="Email"]').value;
+                const district = document.querySelector('select[name="district"]').value;
+                const ward = document.querySelector('select[name="ward"]').value;
+                const street = document.querySelector('input[name="street"]').value;
+
+                if (!customerName || !phoneNumber || !email || !district || !ward || !street) {
+                    alert("Vui lòng điền đầy đủ thông tin khách hàng và địa chỉ!");
+                    return;
+                }
+
+                if (currentStep < formSteps.length - 1) {
+                    currentStep++;
+                    updateStepDisplay();
+                }
+            });
+        });
+
+        prevBtns.forEach(btn => {
+            btn.addEventListener("click", () => {
+                if (currentStep > 0) {
+                    currentStep--;
+                    updateStepDisplay();
+                }
+            });
+        });
+
+        // Payment method logic
+        document.getElementById("paymentMethod").addEventListener("change", function () {
+            const qrCodeContainer = document.getElementById("qrCodeContainer");
+            qrCodeContainer.classList.add("d-none");
+
+            if (this.value === "EWallet") {
+                qrCodeContainer.classList.remove("d-none");
+            }
+        });
+
+        // Form submit logic
+        document.getElementById("checkoutForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const province = document.querySelector('select[name="province"]').value;
+            const district = document.querySelector('select[name="district"]').value;
+            const ward = document.querySelector('select[name="ward"]').value;
+            const street = document.querySelector('input[name="street"]').value;
+            const paymentMethod = document.getElementById("paymentMethod").value;
+
+            if (!district || !ward || !street) {
+                alert("Vui lòng điền đầy đủ thông tin địa chỉ!");
+                return;
+            }
+
+            if (!paymentMethod) {
+                alert("Vui lòng chọn phương thức thanh toán!");
+                return;
+            }
+
+            const fullAddress = `${street}, ${ward}, ${district}, ${province}`;
+            document.querySelector('input[name="ShippingAddress"]').value = fullAddress;
+
+            this.submit();
+        });
+
+        // Gọi updateWards khi trang tải
+        document.addEventListener("DOMContentLoaded", function () {
+            updateWards();
+            updateStepDisplay();
+        });
+    </script>
+}

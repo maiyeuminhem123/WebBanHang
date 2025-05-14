@@ -1,0 +1,177 @@
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\css\site.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery-validation\LICENSE.md
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery\dist\jquery.slim.min.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery\dist\jquery.slim.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery\dist\jquery.slim.min.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery\dist\jquery.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\js\site.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\favicon.ico
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery\LICENSE.txt
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery\dist\jquery.min.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery\dist\jquery.min.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\images\052fd768-fdf8-4e0e-8952-9850a5404bfd - Copy.jpg
+wwwroot\images\052fd768-fdf8-4e0e-8952-9850a5404bfd.jpg
+wwwroot\images\081801e4-f966-44c5-bf6a-184358ab1c5e.jpg
+wwwroot\images\14fa374a-ef60-484c-94d8-2a9a5839a37a.jpg
+wwwroot\images\1947d4be-acc6-49c4-975b-a6b82edb13c8.jpg
+wwwroot\images\1bec1695-830a-412a-aca1-10f952196a0c.jpg
+wwwroot\images\29e03f1c-afd2-4342-bb10-ab25982bfa79.webp
+wwwroot\images\2d280626-5f41-4873-9977-48eeae0c2fd0.jpg
+wwwroot\images\3b9dfa9b-cbbb-4c8b-adee-2eb2e0d405c3.jpg
+wwwroot\images\4cb5bf4a-b1fa-4d50-92f5-5db694cdd416.jpg
+wwwroot\images\4da0191f-41b3-4016-8b90-7ba1dccb96b5.jpg
+wwwroot\images\4f78d1de-4bb6-43e7-a275-ce1e93fbcd81.png
+wwwroot\images\56a06604-3693-478a-81c1-9e96baf5827c.jpg
+wwwroot\images\68b55f83-0579-4a64-9f02-dfb19107a903.jpg
+wwwroot\images\6abf6ba2-d3f0-45d7-b553-2e153a17c6c5.jpg
+wwwroot\images\746ea44d-9f34-4af2-992d-325557db04bf.jpg
+wwwroot\images\773873b5-b6fc-4beb-8f59-c05ff319b297.jpg
+wwwroot\images\7f60dfd0-62be-4b2f-90ac-8acd8b5fc971.jpg
+wwwroot\images\83f48427-b07c-4962-9d95-00a6888a7986.jpg
+wwwroot\images\8458cbfc-a9ce-4342-9334-8a31df1ca4b9.webp
+wwwroot\images\861f2ab8-2a12-4ea7-a370-c8a7f66dc7cc.jpg
+wwwroot\images\8e1fbb2e-e67e-4b08-8383-0a96630c6a56.jpg
+wwwroot\images\8ec76910-b0e7-4eff-ad10-7ed7abf253dd.jpg
+wwwroot\images\8ff8607f-9549-4ad9-8e93-e3b2f0ce95d6.jpg
+wwwroot\images\90a235bd-2166-4336-9d68-0455272944e3.jpg
+wwwroot\images\9257f4fc-d323-43b2-a693-d34cfa636df9.jpg
+wwwroot\images\98d0a480-d80a-4b62-a3bb-32c3866fa477.jpg
+wwwroot\images\9b7c5273-9bb3-4028-ae45-3dcd96c0e5c3.jpg
+wwwroot\images\a8367463-c7da-451c-ab57-174b069199dc.jpg
+wwwroot\images\ae13b881-06fc-4d89-9b57-f0bb3328ac57.jpg
+wwwroot\images\ae6e913a-248f-41ca-97a3-a3287f997a9b.jpg
+wwwroot\images\b23a77cc-e997-4d21-a742-9812996a8413.jpg
+wwwroot\images\ba9c7532-b7e1-48de-8736-84356c00bdb0.jpg
+wwwroot\images\be457e4b-b4e2-4a91-b153-ef8b634a720a.jpg
+wwwroot\images\c45ab210-3fd8-4722-920a-fdea46043070.webp
+wwwroot\images\ce8cb3c3-3c14-4b68-bf0f-9f32146ac59a.webp
+wwwroot\images\cf7f2b74-d628-4d22-a63a-785114b3e88a.jpg
+wwwroot\images\cocacola.jpg
+wwwroot\images\ddcc3bbb-a581-4154-845c-a09ded039efe.jpg
+wwwroot\images\e02a2147-9d28-4785-822a-12368b991567.jpg
+wwwroot\images\eb778c12-f98f-4906-8a74-1803def85957.webp
+wwwroot\images\f00ec53c-a571-4350-b5c5-3d4860b1c4b3.jpg
+wwwroot\images\f1a6e165-fe49-4ab4-984c-22df82700130.jpg
+wwwroot\images\f60a3170-2ef0-4b7e-8c69-b8df4e75129b.jpg
+wwwroot\images\f6e2a284-6f1c-414e-a4f2-98aa04e8f0e6.jpg
+wwwroot\images\fa5f6c59-6151-4c4a-83a2-d55614ed617e.jpg
+wwwroot\images\fad367f2-0969-49f7-b830-f6b63edfb653.jpg
+wwwroot\images\fdba0a33-3452-493d-996d-edd403d079e7.jpg
+wwwroot\images\fe4b7387-6ae6-490d-8b0c-3eb9475be418.png
+wwwroot\images\login-image.jpg
+wwwroot\images\qr-code.png
+wwwroot\images\shop-image.jpg
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt

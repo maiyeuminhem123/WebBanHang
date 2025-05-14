@@ -1,0 +1,181 @@
+﻿@model ShoppingCart
+
+@{
+    ViewData["Title"] = "Giỏ Hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <h2 class="text-center mt-4">🛒 Giỏ hàng của bạn</h2>
+
+    <!-- Thanh trạng thái -->
+    <div class="d-flex justify-content-between align-items-center mb-5 p-3 rounded" style="background-color: #f8d7da; border-radius: 10px;">
+        <div class="text-center step active">
+            <span class="badge bg-success rounded-circle p-2"><i class="fas fa-shopping-cart"></i></span>
+            <p class="mb-0">Giỏ hàng</p>
+        </div>
+        <div class="text-center step">
+            <span class="badge bg-light rounded-circle p-2 text-dark"><i class="fas fa-user"></i></span>
+            <p class="mb-0">Thông tin đặt hàng</p>
+        </div>
+        <div class="text-center step">
+            <span class="badge bg-light rounded-circle p-2 text-dark"><i class="fas fa-credit-card"></i></span>
+            <p class="mb-0">Thanh toán</p>
+        </div>
+        <div class="text-center step">
+            <span class="badge bg-light rounded-circle p-2 text-dark"><i class="fas fa-check"></i></span>
+            <p class="mb-0">Hoàn tất</p>
+        </div>
+    </div>
+
+    <div id="cart-container">
+        <table class="table table-hover mt-3">
+            <thead class="table-dark">
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th class="text-center">Số lượng</th>
+                    <th class="text-end">Đơn giá</th>
+                    <th class="text-end">Tổng</th>
+                    <th class="text-center">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody id="cart-body">
+                @if (!Model.Items.Any())
+                {
+                    <tr>
+                        <td colspan="5" class="text-center">Giỏ hàng của bạn đang trống!</td>
+                    </tr>
+                }
+                else
+                {
+                    @foreach (var item in Model.Items)
+                    {
+                        <tr data-id="@item.ProductId">
+                            <td>@item.Name</td>
+                            <td class="text-center">
+                                <button class="btn btn-sm decrease" style="background-color: pink; color: white;">➖</button>
+                                <span class="mx-2 quantity">@item.Quantity</span>
+                                <button class="btn btn-sm increase" style="background-color: pink; color: white;">➕</button>
+                            </td>
+                            <td class="text-end price" data-price="@item.Price">@item.Price.ToString("#,##0") VND</td>
+                            <td class="text-end total">@((item.Price * item.Quantity).ToString("#,##0")) VND</td>
+                            <td class="text-center">
+                                <button class="btn btn-danger btn-sm remove">❌ Xóa</button>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+            <tfoot>
+                <tr class="fw-bold">
+                    <td colspan="3" class="text-end">Tổng tiền:</td>
+                    <td class="text-end text-danger" id="total-price">
+                        @Model.Items.Sum(item => item.Price * item.Quantity).ToString("#,##0") VND
+                    </td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div class="text-end mt-4">
+        <a class="btn btn-success btn-lg" asp-controller="ShoppingCart" asp-action="Checkout">💳 Thanh toán</a>
+    </div>
+</div>
+
+<style>
+    .step {
+        flex: 1;
+        transition: all 0.3s ease;
+    }
+
+        .step.active .badge {
+            background-color: #28a745 !important;
+            color: white !important;
+        }
+
+        .step.active p {
+            font-weight: bold;
+            color: #000;
+        }
+
+    .badge {
+        font-size: 1.2rem;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            function updateTotal() {
+                let total = 0;
+                $("#cart-body tr").each(function () {
+                    let price = parseFloat($(this).find(".price").data("price"));
+                    let quantity = parseInt($(this).find(".quantity").text());
+                    let totalItem = price * quantity;
+                    $(this).find(".total").text(totalItem.toLocaleString() + " VND");
+                    total += totalItem;
+                });
+                $("#total-price").text(total.toLocaleString() + " VND");
+            }
+
+            function updateCart(productId, action, quantityEl, row) {
+                $.ajax({
+                    url: "/ShoppingCart/UpdateCart",
+                    type: "POST",
+                    data: { productId: productId, action: action },
+                    success: function (response) {
+                        if (response.success) {
+                            if (action === "remove") {
+                                row.remove();
+                                if ($("#cart-body tr").length === 0) {
+                                    $("#cart-body").html('<tr><td colspan="5" class="text-center">Giỏ hàng của bạn đang trống!</td></tr>');
+                                }
+                            } else {
+                                quantityEl.text(response.quantity);
+                            }
+                            updateTotal();
+                        } else {
+                            alert("Có lỗi xảy ra khi cập nhật giỏ hàng!");
+                        }
+                    },
+                    error: function () {
+                        alert("Lỗi kết nối đến server!");
+                    }
+                });
+            }
+
+            $("#cart-body").on("click", ".increase", function () {
+                let row = $(this).closest("tr");
+                let productId = row.data("id");
+                let quantityEl = row.find(".quantity");
+                updateCart(productId, "increase", quantityEl, row);
+            });
+
+            $("#cart-body").on("click", ".decrease", function () {
+                let row = $(this).closest("tr");
+                let productId = row.data("id");
+                let quantityEl = row.find(".quantity");
+                let quantity = parseInt(quantityEl.text());
+
+                if (quantity > 1) {
+                    updateCart(productId, "decrease", quantityEl, row);
+                } else {
+                    updateCart(productId, "remove", quantityEl, row);
+                }
+            });
+
+            $("#cart-body").on("click", ".remove", function () {
+                let row = $(this).closest("tr");
+                let productId = row.data("id");
+                updateCart(productId, "remove", null, row);
+            });
+        });
+    </script>
+}

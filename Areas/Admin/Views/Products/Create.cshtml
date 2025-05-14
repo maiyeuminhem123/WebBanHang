@@ -1,0 +1,52 @@
+﻿@model Bai3_WebBanHang.Models.Product
+
+@{
+    ViewData["Title"] = "Thêm sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml"; 
+}
+
+<h2 class="text-center text-uppercase fw-bold">🛒 Thêm sản phẩm mới</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">Tên sản phẩm</label>
+        <input asp-for="Name" class="form-control" required />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Price" class="form-label">Giá</label>
+        <input asp-for="Price" type="number" class="form-control" required />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label">Mô tả</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Danh mục</label>
+        <input type="text" name="CategoryName" class="form-control" placeholder="Nhập danh mục mới hoặc danh mục có sẵn" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Hình ảnh chính</label>
+        <input type="file" name="MainImage" class="form-control" />
+        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Hình ảnh chi tiết (nhiều ảnh)</label>
+        <input type="file" name="DetailImages" class="form-control" multiple />
+    </div>
+
+    <div class="text-center">
+        <button type="submit" class="btn btn-primary">💾 Lưu</button>
+        <a asp-action="Index" class="btn btn-secondary">🔙 Quay lại</a>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

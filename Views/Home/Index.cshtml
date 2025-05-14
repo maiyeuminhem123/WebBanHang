@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Bai3_WebBanHang.Models.Product>
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<style>
+    .product-card {
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+    }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+
+    .product-image {
+        height: 200px;
+        object-fit: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .price {
+        font-size: 18px;
+        font-weight: bold;
+        color: #e74c3c;
+        margin-bottom: 10px;
+    }
+</style>
+
+
+
+<!-- Thanh tìm kiếm -->
+<div class="container mt-3">
+    <div class="row" id="productList">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3 mb-4 product-item">
+                <div class="card product-card">
+                    <img src="@item.ImageUrl" class="card-img-top product-image" alt="Hình sản phẩm">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="price">@item.Price.ToString("#,##0") VND</p>
+                        <div class="d-flex justify-content-between">
+                            <a asp-controller="Products" asp-action="Details"
+                               asp-route-id="@item.Id"
+                               class="btn btn-outline-primary">
+                                👁 Xem chi tiết
+                            </a>
+                            <a asp-controller="ShoppingCart" asp-action="AddToCart"
+                               asp-route-productId="@item.Id"
+                               asp-route-quantity="1"
+                               class="btn btn-outline-dark">
+                                🛒 Thêm vào giỏ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    document.getElementById("searchInput").addEventListener("input", function () {
+        let filter = this.value.toLowerCase();
+        let products = document.querySelectorAll(".product-item");
+        products.forEach(function (product) {
+            let title = product.querySelector(".card-title").innerText.toLowerCase();
+            product.style.display = title.includes(filter) ? "block" : "none";
+        });
+    });
+</script>

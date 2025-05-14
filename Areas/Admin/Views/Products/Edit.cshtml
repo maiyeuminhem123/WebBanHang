@@ -1,0 +1,140 @@
+﻿@model Bai3_WebBanHang.Models.Product
+
+@{
+    ViewData["Title"] = "Sửa sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center text-uppercase fw-bold">Sửa sản phẩm</h2>
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label">Tên sản phẩm</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Price" class="form-label">Giá</label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label">Mô tả</label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Hình ảnh chính hiện tại</label>
+                <div>
+                    @if (!string.IsNullOrEmpty(Model?.ImageUrl))
+                    {
+                        <img src="@Model.ImageUrl" alt="@Model.Name" class="img-fluid" style="max-height: 200px;" />
+                    }
+                    else
+                    {
+                        <span>Không có hình ảnh.</span>
+                    }
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Hình ảnh chính mới</label>
+                <input type="file" name="ProductImage" id="ProductImage" class="form-control" accept="image/*" />
+                <img id="previewImage" src="#" alt="Hình ảnh mới" style="max-width: 200px; display: none;" />
+            </div>
+
+            <!-- Hiển thị danh sách ảnh chi tiết hiện tại -->
+            <div class="mb-3">
+                <label class="form-label">Ảnh chi tiết hiện tại</label>
+                <div class="d-flex flex-wrap">
+                    @if (Model?.ProductImages != null && Model.ProductImages.Any())
+                    {
+                        @foreach (var image in Model.ProductImages)
+                        {
+                            <div class="position-relative me-3 mb-3">
+                                <img src="@image.Url" alt="Ảnh chi tiết" class="img-thumbnail" style="max-width: 150px; max-height: 150px; object-fit: cover;" />
+                                <!-- Checkbox để chọn ảnh muốn xóa -->
+                                <div class="position-absolute top-0 end-0">
+                                    <input type="checkbox" name="DeleteImageIds" value="@image.Id" class="form-check-input" />
+                                    <label class="form-check-label text-danger">Xóa</label>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <span>Không có ảnh chi tiết.</span>
+                    }
+                </div>
+            </div>
+
+            <!-- Upload ảnh chi tiết mới -->
+            <div class="mb-3">
+                <label class="form-label">Thêm ảnh chi tiết mới</label>
+                <input type="file" name="DetailImages" id="DetailImages" class="form-control" accept="image/*" multiple />
+                <div id="previewDetailImages" class="d-flex flex-wrap mt-2"></div>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="CategoryId" class="form-label">Danh mục</label>
+                <select asp-for="CategoryId" class="form-select" asp-items="@(ViewData["Categories"] as SelectList)"></select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Lưu</button>
+                <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        // Preview ảnh chính mới
+        document.getElementById("ProductImage").addEventListener("change", function (event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    const img = document.getElementById("previewImage");
+                    img.src = e.target.result;
+                    img.style.display = "block";
+                };
+                reader.readAsDataURL(file);
+            } else {
+                document.getElementById("previewImage").src = "#";
+                document.getElementById("previewImage").style.display = "none";
+            }
+        });
+
+        // Preview ảnh chi tiết mới
+        document.getElementById("DetailImages").addEventListener("change", function (event) {
+            const files = event.target.files;
+            const previewContainer = document.getElementById("previewDetailImages");
+            previewContainer.innerHTML = ""; // Xóa các preview cũ
+
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        const img = document.createElement("img");
+                        img.src = e.target.result;
+                        img.className = "img-thumbnail me-2 mb-2";
+                        img.style.maxWidth = "150px";
+                        img.style.maxHeight = "150px";
+                        img.style.objectFit = "cover";
+                        previewContainer.appendChild(img);
+                    };
+                    reader.readAsDataURL(file);
+                }
+            }
+        });
+    </script>
+}

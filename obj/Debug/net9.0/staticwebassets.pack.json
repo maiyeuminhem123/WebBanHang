@@ -1,0 +1,489 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Bai3_WebBanHang.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Bai3_WebBanHang.46pvh1j1w3.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\052fd768-fdf8-4e0e-8952-9850a5404bfd - Copy.jpg",
+      "PackagePath": "staticwebassets\\images\\052fd768-fdf8-4e0e-8952-9850a5404bfd - Copy.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\052fd768-fdf8-4e0e-8952-9850a5404bfd.jpg",
+      "PackagePath": "staticwebassets\\images\\052fd768-fdf8-4e0e-8952-9850a5404bfd.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\081801e4-f966-44c5-bf6a-184358ab1c5e.jpg",
+      "PackagePath": "staticwebassets\\images\\081801e4-f966-44c5-bf6a-184358ab1c5e.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\14fa374a-ef60-484c-94d8-2a9a5839a37a.jpg",
+      "PackagePath": "staticwebassets\\images\\14fa374a-ef60-484c-94d8-2a9a5839a37a.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\1947d4be-acc6-49c4-975b-a6b82edb13c8.jpg",
+      "PackagePath": "staticwebassets\\images\\1947d4be-acc6-49c4-975b-a6b82edb13c8.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\1bec1695-830a-412a-aca1-10f952196a0c.jpg",
+      "PackagePath": "staticwebassets\\images\\1bec1695-830a-412a-aca1-10f952196a0c.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\29e03f1c-afd2-4342-bb10-ab25982bfa79.webp",
+      "PackagePath": "staticwebassets\\images\\29e03f1c-afd2-4342-bb10-ab25982bfa79.webp"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\2d280626-5f41-4873-9977-48eeae0c2fd0.jpg",
+      "PackagePath": "staticwebassets\\images\\2d280626-5f41-4873-9977-48eeae0c2fd0.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\3b9dfa9b-cbbb-4c8b-adee-2eb2e0d405c3.jpg",
+      "PackagePath": "staticwebassets\\images\\3b9dfa9b-cbbb-4c8b-adee-2eb2e0d405c3.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\4cb5bf4a-b1fa-4d50-92f5-5db694cdd416.jpg",
+      "PackagePath": "staticwebassets\\images\\4cb5bf4a-b1fa-4d50-92f5-5db694cdd416.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\4da0191f-41b3-4016-8b90-7ba1dccb96b5.jpg",
+      "PackagePath": "staticwebassets\\images\\4da0191f-41b3-4016-8b90-7ba1dccb96b5.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\4f78d1de-4bb6-43e7-a275-ce1e93fbcd81.png",
+      "PackagePath": "staticwebassets\\images\\4f78d1de-4bb6-43e7-a275-ce1e93fbcd81.png"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\56a06604-3693-478a-81c1-9e96baf5827c.jpg",
+      "PackagePath": "staticwebassets\\images\\56a06604-3693-478a-81c1-9e96baf5827c.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\68b55f83-0579-4a64-9f02-dfb19107a903.jpg",
+      "PackagePath": "staticwebassets\\images\\68b55f83-0579-4a64-9f02-dfb19107a903.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\6abf6ba2-d3f0-45d7-b553-2e153a17c6c5.jpg",
+      "PackagePath": "staticwebassets\\images\\6abf6ba2-d3f0-45d7-b553-2e153a17c6c5.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\746ea44d-9f34-4af2-992d-325557db04bf.jpg",
+      "PackagePath": "staticwebassets\\images\\746ea44d-9f34-4af2-992d-325557db04bf.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\773873b5-b6fc-4beb-8f59-c05ff319b297.jpg",
+      "PackagePath": "staticwebassets\\images\\773873b5-b6fc-4beb-8f59-c05ff319b297.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\7f60dfd0-62be-4b2f-90ac-8acd8b5fc971.jpg",
+      "PackagePath": "staticwebassets\\images\\7f60dfd0-62be-4b2f-90ac-8acd8b5fc971.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\83f48427-b07c-4962-9d95-00a6888a7986.jpg",
+      "PackagePath": "staticwebassets\\images\\83f48427-b07c-4962-9d95-00a6888a7986.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\8458cbfc-a9ce-4342-9334-8a31df1ca4b9.webp",
+      "PackagePath": "staticwebassets\\images\\8458cbfc-a9ce-4342-9334-8a31df1ca4b9.webp"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\861f2ab8-2a12-4ea7-a370-c8a7f66dc7cc.jpg",
+      "PackagePath": "staticwebassets\\images\\861f2ab8-2a12-4ea7-a370-c8a7f66dc7cc.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\8e1fbb2e-e67e-4b08-8383-0a96630c6a56.jpg",
+      "PackagePath": "staticwebassets\\images\\8e1fbb2e-e67e-4b08-8383-0a96630c6a56.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\8ec76910-b0e7-4eff-ad10-7ed7abf253dd.jpg",
+      "PackagePath": "staticwebassets\\images\\8ec76910-b0e7-4eff-ad10-7ed7abf253dd.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\8ff8607f-9549-4ad9-8e93-e3b2f0ce95d6.jpg",
+      "PackagePath": "staticwebassets\\images\\8ff8607f-9549-4ad9-8e93-e3b2f0ce95d6.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\90a235bd-2166-4336-9d68-0455272944e3.jpg",
+      "PackagePath": "staticwebassets\\images\\90a235bd-2166-4336-9d68-0455272944e3.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\9257f4fc-d323-43b2-a693-d34cfa636df9.jpg",
+      "PackagePath": "staticwebassets\\images\\9257f4fc-d323-43b2-a693-d34cfa636df9.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\98d0a480-d80a-4b62-a3bb-32c3866fa477.jpg",
+      "PackagePath": "staticwebassets\\images\\98d0a480-d80a-4b62-a3bb-32c3866fa477.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\9b7c5273-9bb3-4028-ae45-3dcd96c0e5c3.jpg",
+      "PackagePath": "staticwebassets\\images\\9b7c5273-9bb3-4028-ae45-3dcd96c0e5c3.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\a8367463-c7da-451c-ab57-174b069199dc.jpg",
+      "PackagePath": "staticwebassets\\images\\a8367463-c7da-451c-ab57-174b069199dc.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\ae13b881-06fc-4d89-9b57-f0bb3328ac57.jpg",
+      "PackagePath": "staticwebassets\\images\\ae13b881-06fc-4d89-9b57-f0bb3328ac57.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\ae6e913a-248f-41ca-97a3-a3287f997a9b.jpg",
+      "PackagePath": "staticwebassets\\images\\ae6e913a-248f-41ca-97a3-a3287f997a9b.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\b23a77cc-e997-4d21-a742-9812996a8413.jpg",
+      "PackagePath": "staticwebassets\\images\\b23a77cc-e997-4d21-a742-9812996a8413.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\ba9c7532-b7e1-48de-8736-84356c00bdb0.jpg",
+      "PackagePath": "staticwebassets\\images\\ba9c7532-b7e1-48de-8736-84356c00bdb0.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\be457e4b-b4e2-4a91-b153-ef8b634a720a.jpg",
+      "PackagePath": "staticwebassets\\images\\be457e4b-b4e2-4a91-b153-ef8b634a720a.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\c45ab210-3fd8-4722-920a-fdea46043070.webp",
+      "PackagePath": "staticwebassets\\images\\c45ab210-3fd8-4722-920a-fdea46043070.webp"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\ce8cb3c3-3c14-4b68-bf0f-9f32146ac59a.webp",
+      "PackagePath": "staticwebassets\\images\\ce8cb3c3-3c14-4b68-bf0f-9f32146ac59a.webp"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\cf7f2b74-d628-4d22-a63a-785114b3e88a.jpg",
+      "PackagePath": "staticwebassets\\images\\cf7f2b74-d628-4d22-a63a-785114b3e88a.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\cocacola.jpg",
+      "PackagePath": "staticwebassets\\images\\cocacola.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\ddcc3bbb-a581-4154-845c-a09ded039efe.jpg",
+      "PackagePath": "staticwebassets\\images\\ddcc3bbb-a581-4154-845c-a09ded039efe.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\e02a2147-9d28-4785-822a-12368b991567.jpg",
+      "PackagePath": "staticwebassets\\images\\e02a2147-9d28-4785-822a-12368b991567.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\eb778c12-f98f-4906-8a74-1803def85957.webp",
+      "PackagePath": "staticwebassets\\images\\eb778c12-f98f-4906-8a74-1803def85957.webp"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\f00ec53c-a571-4350-b5c5-3d4860b1c4b3.jpg",
+      "PackagePath": "staticwebassets\\images\\f00ec53c-a571-4350-b5c5-3d4860b1c4b3.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\f1a6e165-fe49-4ab4-984c-22df82700130.jpg",
+      "PackagePath": "staticwebassets\\images\\f1a6e165-fe49-4ab4-984c-22df82700130.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\f60a3170-2ef0-4b7e-8c69-b8df4e75129b.jpg",
+      "PackagePath": "staticwebassets\\images\\f60a3170-2ef0-4b7e-8c69-b8df4e75129b.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\f6e2a284-6f1c-414e-a4f2-98aa04e8f0e6.jpg",
+      "PackagePath": "staticwebassets\\images\\f6e2a284-6f1c-414e-a4f2-98aa04e8f0e6.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\fa5f6c59-6151-4c4a-83a2-d55614ed617e.jpg",
+      "PackagePath": "staticwebassets\\images\\fa5f6c59-6151-4c4a-83a2-d55614ed617e.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\fad367f2-0969-49f7-b830-f6b63edfb653.jpg",
+      "PackagePath": "staticwebassets\\images\\fad367f2-0969-49f7-b830-f6b63edfb653.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\fdba0a33-3452-493d-996d-edd403d079e7.jpg",
+      "PackagePath": "staticwebassets\\images\\fdba0a33-3452-493d-996d-edd403d079e7.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\fe4b7387-6ae6-490d-8b0c-3eb9475be418.png",
+      "PackagePath": "staticwebassets\\images\\fe4b7387-6ae6-490d-8b0c-3eb9475be418.png"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\login-image.jpg",
+      "PackagePath": "staticwebassets\\images\\login-image.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\qr-code.png",
+      "PackagePath": "staticwebassets\\images\\qr-code.png"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\shop-image.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-image.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Bai3_WebBanHang.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Bai3_WebBanHang.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Bai3_WebBanHang.props",
+      "PackagePath": "build\\Bai3_WebBanHang.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Bai3_WebBanHang.props",
+      "PackagePath": "buildMultiTargeting\\Bai3_WebBanHang.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Bai3_WebBanHang.props",
+      "PackagePath": "buildTransitive\\Bai3_WebBanHang.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,189 @@
+﻿@page
+@model Bai3_WebBanHang.Areas.Identity.Pages.Account.RegisterModel
+@{
+    ViewData["Title"] = "Đăng ký";
+}
+<style>
+    body {
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        min-height: 100vh;
+    }
+
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 2rem;
+    }
+
+    .register-card {
+        display: flex;
+        border-radius: 15px;
+        background: #fff;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        width: 900px;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .image-section {
+        flex: 1;
+        background: linear-gradient(135deg, #ff7eb3, #ff758c);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 2rem;
+        position: relative;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 220px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    .image-text {
+        text-align: center;
+    }
+
+        .image-text h2 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .image-text p {
+            font-size: 1rem;
+            line-height: 1.5;
+            opacity: 0.9;
+        }
+
+    .form-section {
+        flex: 1;
+        padding: 2rem;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #ff758c, #ff7eb3);
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        padding: 0.75rem;
+    }
+
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #ff7eb3, #ff758c);
+        }
+
+    .form-control {
+        border-radius: 10px;
+    }
+
+    a {
+        color: #ff758c;
+        font-weight: bold;
+    }
+
+        a:hover {
+            color: #ff7eb3;
+            text-decoration: underline;
+        }
+
+    /* Responsive design */
+    @@media (max-width: 768px) {
+        .register-card
+
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .image-section {
+        padding: 1.5rem;
+    }
+
+    .image-container {
+        height: 180px;
+    }
+
+    }
+</style>
+
+<div class="main-container">
+    <div class="register-card">
+        <!-- Phần hình ảnh bên trái -->
+        <div class="image-section">
+            <div class="image-container">
+                <img src="~/images/shop-image.jpg" alt="Tiệm Tạp Hoá"
+                     onerror="this.src='https://via.placeholder.com/400x300?text=Ti%E1%BB%87m+T%E1%BA%A1p+Ho%C3%A1'">
+            </div>
+            <div class="image-text">
+                <h2>Chào mừng đến với Tiệm Tạp Hoá</h2>
+                <p>Đăng ký tài khoản để khám phá hàng ngàn sản phẩm chất lượng với giá ưu đãi.</p>
+                <p>Tận hưởng trải nghiệm mua sắm trực tuyến đơn giản và tiện lợi.</p>
+            </div>
+        </div>
+
+        <!-- Phần form bên phải -->
+        <div class="form-section">
+            <h2 class="text-center mb-4">Đăng ký tài khoản</h2>
+            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.FullName" class="form-control" placeholder="Tên đầy đủ" required />
+                    <label asp-for="Input.FullName">Tên đầy đủ</label>
+                    <span asp-validation-for="Input.FullName" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Email" class="form-control" autocomplete="username" required placeholder="name@example.com" />
+                    <label asp-for="Input.Email">Email</label>
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Password" type="password" class="form-control" autocomplete="new-password" required placeholder="Mật khẩu" />
+                    <label asp-for="Input.Password">Mật khẩu</label>
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.ConfirmPassword" type="password" class="form-control" autocomplete="new-password" required placeholder="Xác nhận mật khẩu" />
+                    <label asp-for="Input.ConfirmPassword">Xác nhận mật khẩu</label>
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <select asp-for="Input.Role" asp-items="@Model.Input.RoleList" class="form-control" required>
+                        <option disabled selected>-Chọn vai trò-</option>
+                    </select>
+                    <label for="Input.Role">Vai trò</label>
+                    <span asp-validation-for="Input.Role" class="text-danger"></span>
+                </div>
+
+                <button id="registerSubmit" type="submit" class="btn btn-primary w-100">Đăng ký</button>
+
+                <div class="text-center mt-3">
+                    <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl" class="small">Đã có tài khoản? Đăng nhập</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

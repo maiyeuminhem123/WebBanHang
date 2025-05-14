@@ -1,0 +1,1214 @@
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\appsettings.Development.json
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\appsettings.json
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.staticwebassets.runtime.json
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.staticwebassets.endpoints.json
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.exe
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.deps.json
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.runtimeconfig.json
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.pdb
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Azure.Core.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Azure.Identity.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Humanizer.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Mono.TextTemplating.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.ClientModel.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.CodeDom.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.Convention.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.Hosting.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.Runtime.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.TypedParts.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.Formats.Asn1.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.Memory.Data.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.Runtime.Caching.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.Text.Json.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.csproj.AssemblyReference.cache
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.GeneratedMSBuildEditorConfig.editorconfig
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.AssemblyInfoInputs.cache
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.AssemblyInfo.cs
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.csproj.CoreCompileInputs.cache
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.MvcApplicationPartsAssemblyInfo.cache
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.RazorAssemblyInfo.cache
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.RazorAssemblyInfo.cs
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\scopedcss\bundle\Bai3_WebBanHang.styles.css
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\scopedcss\projectbundle\Bai3_WebBanHang.bundle.scp.css
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\s0d9xzs9bc-61n19gt1b8.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\q5pcohm5cx-xtxxf3hu2r.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\vyqct1a4rb-bqjiyaj88i.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\wwssy2swla-c2jlpeoesf.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\djx4i7z7mp-erw9l3u2r3.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\mo3qy2zgp9-aexeepp0ev.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\31raixq91r-d7shbmvgxk.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\cp9hxgi68d-ausgxo2sd3.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\t6wcqd6twz-k8d9w2qqmf.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\zzaf22a8yv-cosvhxvwiu.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\o70t5sp8it-ub07r2b239.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\k4zdj93v7x-fvhpjtyr6v.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\fmxlwe0ija-b7pk76d08c.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\o8b9rxdrjx-fsbi9cje9m.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\nklrd2lchb-rzd6atqjts.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\3md1t9ld5n-ee0r1s7dh0.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\vb2rik74as-dxx9fxp4il.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\4ddfv1lxcw-jd9uben2k1.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ahpen7wc5v-khv3u5hwcm.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\veuqk9dkiz-r4e9w2rdcm.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\phq7auaqkp-lcd1t2u6c8.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\wgxrbgivg8-c2oey78nd0.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\o2r06dyror-tdbxkamptv.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\krc1ms8owx-j5mq2jizvt.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\c7pc4064ce-06098lyss8.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\24p4e5qmti-nvvlpmu67g.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\inbmarbm07-s35ty4nyc5.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\karymwqwpl-pj5nd1wqec.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\q7pjqrtf72-46ein0sx1k.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\s6c3q4nmb6-v0zj4ognzu.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\jxwlc128lg-37tfw0ft22.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ki57gc9skt-hrwsygsryq.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\rvj1iyr797-pk9g2wxc8p.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\c1y26pnmtp-ft3s53vfgj.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\s92yow93gx-6cfz1n2cew.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\j57q222zw5-6pdc2jztkx.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\2fldza4kdk-493y06b0oq.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\t8qlr3egb8-iovd86k7lj.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\jquzm6s5m7-vr1egmr9el.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\atv6ujwd8a-kbrnm935zg.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\nglg7gw3dt-jj8uyg4cgr.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\6vysgggmyh-y7v9cxd14o.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\wqqzh7unoj-notf2xhcfb.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ycbtmo0b7a-h1s4sie4z3.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\pq2sxj7qz0-63fj8s7r0e.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\z70i6kc51w-0j3bgjxly4.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\1vd2vjnw67-47otxtyo56.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\532j5f5rhg-4v8eqarkd7.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\5u5qa9lltk-356vix0kms.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\zelozrfzet-83jwlth58m.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\9xpxzpvig8-mrlpezrjn3.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\tvji5906ay-lzl9nlhx6b.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\39kc40f8wu-ag7o75518u.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\3mfvm2hlzd-x0q3zqp4vz.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ouuma228lu-0i3buxo5is.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\tuffl7edev-o1o13a6vjx.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\u32mix2su0-ttgo8qnofa.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\dcqnsvsik7-2z0ns9nrw6.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\j0tqlbuil8-muycvpuwrr.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\d8123ox6n2-87fc7y1x7t.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\sc4a3yiho2-mlv21k5csn.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ew1ldra7mf-46pvh1j1w3.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\7un61ufkn1-46pvh1j1w3.gz
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.build.json
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.development.json
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.Bai3_WebBanHang.Microsoft.AspNetCore.StaticWebAssets.props
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.Bai3_WebBanHang.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.build.Bai3_WebBanHang.props
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Bai3_WebBanHang.props
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Bai3_WebBanHang.props
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.pack.json
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_Web.A2D2D8FD.Up2Date
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\refint\Bai3_WebBanHang.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.pdb
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.genruntimeconfig.cache
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\ref\Bai3_WebBanHang.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Build.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\Newtonsoft.Json.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Common.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Configuration.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Frameworks.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.LibraryModel.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Packaging.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.ProjectModel.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Protocol.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Versioning.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\af\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ar\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\az\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\bg\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\cs\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\da\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\de\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\el\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\es\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\fa\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\fr\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\he\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\hr\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\hu\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\hy\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\id\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\is\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\it\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ja\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ku\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\lv\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\mt\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\nb\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\nl\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pl\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pt\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ro\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ru\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\sk\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\sl\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\sr\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\sv\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\tr\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\uk\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\vi\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+M:\Bai3_WebBanHang\Bai3_WebBanHang\obj\Debug\net9.0\compressed\2ks4hh9q19-gr9x31l1tl.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.csproj.AssemblyReference.cache
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.GeneratedMSBuildEditorConfig.editorconfig
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.AssemblyInfoInputs.cache
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.AssemblyInfo.cs
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.csproj.CoreCompileInputs.cache
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.MvcApplicationPartsAssemblyInfo.cache
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.RazorAssemblyInfo.cache
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.RazorAssemblyInfo.cs
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\refint\Bai3_WebBanHang.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.pdb
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\appsettings.Development.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\appsettings.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.staticwebassets.runtime.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.staticwebassets.endpoints.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.exe
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.deps.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.runtimeconfig.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.pdb
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Azure.Core.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Azure.Identity.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Humanizer.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Build.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Common.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Configuration.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Frameworks.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.LibraryModel.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Packaging.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.ProjectModel.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Protocol.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Versioning.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.ClientModel.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.CodeDom.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.Formats.Asn1.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.Memory.Data.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\System.Text.Json.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\af\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ar\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\az\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\bg\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\cs\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\da\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\de\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\el\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\es\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\fa\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\fr\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\he\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\hr\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\hu\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\hy\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\id\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\is\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\it\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ja\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ku\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\lv\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\mt\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\nb\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\nl\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pl\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pt\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ro\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ru\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\sk\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\sl\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\sr\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\sv\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\tr\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\uk\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\vi\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\scopedcss\bundle\Bai3_WebBanHang.styles.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\scopedcss\projectbundle\Bai3_WebBanHang.bundle.scp.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\2ks4hh9q19-gr9x31l1tl.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\s0d9xzs9bc-61n19gt1b8.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\vyqct1a4rb-bqjiyaj88i.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\wwssy2swla-c2jlpeoesf.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\djx4i7z7mp-erw9l3u2r3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\mo3qy2zgp9-aexeepp0ev.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\31raixq91r-d7shbmvgxk.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\cp9hxgi68d-ausgxo2sd3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\t6wcqd6twz-k8d9w2qqmf.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\zzaf22a8yv-cosvhxvwiu.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\o70t5sp8it-ub07r2b239.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\k4zdj93v7x-fvhpjtyr6v.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\fmxlwe0ija-b7pk76d08c.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\o8b9rxdrjx-fsbi9cje9m.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\nklrd2lchb-rzd6atqjts.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\3md1t9ld5n-ee0r1s7dh0.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\vb2rik74as-dxx9fxp4il.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\4ddfv1lxcw-jd9uben2k1.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ahpen7wc5v-khv3u5hwcm.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\veuqk9dkiz-r4e9w2rdcm.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\phq7auaqkp-lcd1t2u6c8.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\wgxrbgivg8-c2oey78nd0.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\o2r06dyror-tdbxkamptv.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\krc1ms8owx-j5mq2jizvt.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\c7pc4064ce-06098lyss8.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\24p4e5qmti-nvvlpmu67g.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\inbmarbm07-s35ty4nyc5.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\karymwqwpl-pj5nd1wqec.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\q7pjqrtf72-46ein0sx1k.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\s6c3q4nmb6-v0zj4ognzu.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\jxwlc128lg-37tfw0ft22.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ki57gc9skt-hrwsygsryq.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\rvj1iyr797-pk9g2wxc8p.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\c1y26pnmtp-ft3s53vfgj.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\s92yow93gx-6cfz1n2cew.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\j57q222zw5-6pdc2jztkx.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\2fldza4kdk-493y06b0oq.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\t8qlr3egb8-iovd86k7lj.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\jquzm6s5m7-vr1egmr9el.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\atv6ujwd8a-kbrnm935zg.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\nglg7gw3dt-jj8uyg4cgr.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\6vysgggmyh-y7v9cxd14o.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\wqqzh7unoj-notf2xhcfb.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ycbtmo0b7a-h1s4sie4z3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\pq2sxj7qz0-63fj8s7r0e.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\z70i6kc51w-0j3bgjxly4.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\1vd2vjnw67-47otxtyo56.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\532j5f5rhg-4v8eqarkd7.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\5u5qa9lltk-356vix0kms.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\zelozrfzet-83jwlth58m.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\9xpxzpvig8-mrlpezrjn3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\tvji5906ay-lzl9nlhx6b.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\39kc40f8wu-ag7o75518u.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\3mfvm2hlzd-x0q3zqp4vz.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ouuma228lu-0i3buxo5is.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\tuffl7edev-o1o13a6vjx.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\u32mix2su0-ttgo8qnofa.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\dcqnsvsik7-2z0ns9nrw6.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\j0tqlbuil8-muycvpuwrr.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\d8123ox6n2-87fc7y1x7t.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\sc4a3yiho2-mlv21k5csn.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ew1ldra7mf-46pvh1j1w3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\7un61ufkn1-46pvh1j1w3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.build.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.development.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.Bai3_WebBanHang.Microsoft.AspNetCore.StaticWebAssets.props
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.Bai3_WebBanHang.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.build.Bai3_WebBanHang.props
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Bai3_WebBanHang.props
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Bai3_WebBanHang.props
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.pack.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_Web.A2D2D8FD.Up2Date
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.genruntimeconfig.cache
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\ref\Bai3_WebBanHang.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.MvcApplicationPartsAssemblyInfo.cs
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.csproj.AssemblyReference.cache
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.GeneratedMSBuildEditorConfig.editorconfig
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.AssemblyInfoInputs.cache
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.AssemblyInfo.cs
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.csproj.CoreCompileInputs.cache
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.MvcApplicationPartsAssemblyInfo.cs
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.MvcApplicationPartsAssemblyInfo.cache
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.RazorAssemblyInfo.cache
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.RazorAssemblyInfo.cs
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\refint\Bai3_WebBanHang.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.pdb
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\appsettings.Development.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\appsettings.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.staticwebassets.endpoints.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.staticwebassets.runtime.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.exe
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.deps.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.runtimeconfig.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Bai3_WebBanHang.pdb
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Azure.Core.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Azure.Identity.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Humanizer.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Build.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Common.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Configuration.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Frameworks.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.LibraryModel.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Packaging.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.ProjectModel.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Protocol.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\NuGet.Versioning.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.ClientModel.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.CodeDom.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.Formats.Asn1.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.Memory.Data.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\System.Text.Json.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\af\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ar\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\az\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\bg\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\cs\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\da\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\de\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\el\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\es\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\fa\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\fr\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\he\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\hr\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\hu\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\hy\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\id\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\is\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\it\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ja\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ku\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\lv\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\mt\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\nb\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\nl\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pl\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pt\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ro\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ru\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\sk\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\sl\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\sr\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\sv\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\tr\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\uk\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\vi\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\scopedcss\bundle\Bai3_WebBanHang.styles.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\scopedcss\projectbundle\Bai3_WebBanHang.bundle.scp.css
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\2ks4hh9q19-gr9x31l1tl.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\s0d9xzs9bc-61n19gt1b8.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\vyqct1a4rb-bqjiyaj88i.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\wwssy2swla-c2jlpeoesf.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\djx4i7z7mp-erw9l3u2r3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\mo3qy2zgp9-aexeepp0ev.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\31raixq91r-d7shbmvgxk.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\cp9hxgi68d-ausgxo2sd3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\t6wcqd6twz-k8d9w2qqmf.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\zzaf22a8yv-cosvhxvwiu.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\o70t5sp8it-ub07r2b239.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\k4zdj93v7x-fvhpjtyr6v.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\fmxlwe0ija-b7pk76d08c.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\o8b9rxdrjx-fsbi9cje9m.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\nklrd2lchb-rzd6atqjts.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\3md1t9ld5n-ee0r1s7dh0.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\vb2rik74as-dxx9fxp4il.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\4ddfv1lxcw-jd9uben2k1.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ahpen7wc5v-khv3u5hwcm.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\veuqk9dkiz-r4e9w2rdcm.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\phq7auaqkp-lcd1t2u6c8.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\wgxrbgivg8-c2oey78nd0.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\o2r06dyror-tdbxkamptv.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\krc1ms8owx-j5mq2jizvt.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\c7pc4064ce-06098lyss8.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\24p4e5qmti-nvvlpmu67g.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\inbmarbm07-s35ty4nyc5.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\karymwqwpl-pj5nd1wqec.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\q7pjqrtf72-46ein0sx1k.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\s6c3q4nmb6-v0zj4ognzu.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\jxwlc128lg-37tfw0ft22.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ki57gc9skt-hrwsygsryq.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\rvj1iyr797-pk9g2wxc8p.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\c1y26pnmtp-ft3s53vfgj.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\s92yow93gx-6cfz1n2cew.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\j57q222zw5-6pdc2jztkx.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\2fldza4kdk-493y06b0oq.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\t8qlr3egb8-iovd86k7lj.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\jquzm6s5m7-vr1egmr9el.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\atv6ujwd8a-kbrnm935zg.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\nglg7gw3dt-jj8uyg4cgr.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\6vysgggmyh-y7v9cxd14o.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\wqqzh7unoj-notf2xhcfb.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ycbtmo0b7a-h1s4sie4z3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\pq2sxj7qz0-63fj8s7r0e.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\z70i6kc51w-0j3bgjxly4.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\1vd2vjnw67-47otxtyo56.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\532j5f5rhg-4v8eqarkd7.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\5u5qa9lltk-356vix0kms.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\zelozrfzet-83jwlth58m.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\9xpxzpvig8-mrlpezrjn3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\tvji5906ay-lzl9nlhx6b.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\39kc40f8wu-ag7o75518u.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\3mfvm2hlzd-x0q3zqp4vz.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ouuma228lu-0i3buxo5is.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\tuffl7edev-o1o13a6vjx.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\u32mix2su0-ttgo8qnofa.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\dcqnsvsik7-2z0ns9nrw6.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\j0tqlbuil8-muycvpuwrr.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\d8123ox6n2-87fc7y1x7t.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\sc4a3yiho2-mlv21k5csn.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\ew1ldra7mf-46pvh1j1w3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\7un61ufkn1-46pvh1j1w3.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.build.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.development.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.Bai3_WebBanHang.Microsoft.AspNetCore.StaticWebAssets.props
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.Bai3_WebBanHang.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.build.Bai3_WebBanHang.props
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Bai3_WebBanHang.props
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Bai3_WebBanHang.props
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.pack.json
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_Web.A2D2D8FD.Up2Date
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.genruntimeconfig.cache
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\ref\Bai3_WebBanHang.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\q5pcohm5cx-0byf39qbww.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\q5pcohm5cx-0byf39qbww.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
