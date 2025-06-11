@@ -19,47 +19,6 @@
             flex-direction: column;
         }
 
-        /* Sidebar quản lý */
-        .sidebar {
-            background-color: #87CEEB;
-            border-right: 1px solid #dee2e6;
-            padding: 20px;
-            width: 250px;
-            flex-shrink: 0;
-        }
-
-            .sidebar h4 {
-                margin-bottom: 20px;
-                font-weight: bold;
-                color: #343a40;
-            }
-
-            .sidebar .nav-link {
-                padding: 10px 15px;
-                color: #333;
-                display: flex;
-                align-items: center;
-                text-decoration: none;
-                border-radius: 5px;
-                transition: background-color 0.3s ease;
-                margin-bottom: 8px;
-            }
-
-                .sidebar .nav-link:hover {
-                    background-color: #d3d3d3;
-                }
-
-                .sidebar .nav-link i {
-                    margin-right: 10px;
-                    font-size: 1.1rem;
-                }
-
-        /* Nội dung chính */
-        .main-content {
-            flex-grow: 1;
-            padding: 20px;
-        }
-
         /* Navbar chính */
         .navbar {
             background-color: #dc3545;
@@ -180,21 +139,11 @@
                     text-decoration: underline;
                 }
 
-        /* Layout container cho sidebar và main content */
-        .body-container {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
+        /* Nội dung chính */
+        .main-content {
             flex-grow: 1;
+            padding: 20px;
         }
-
-            .body-container.no-sidebar .sidebar {
-                display: none;
-            }
-
-            .body-container.no-sidebar .main-content {
-                width: 100%;
-            }
     </style>
 </head>
 <body>
@@ -235,63 +184,41 @@
         </div>
     </nav>
 
-    <!-- Chỉ hiển thị sub-navbar khi không ở khu vực Admin -->
-    @if (ViewContext.RouteData.Values["area"]?.ToString() != "Admin")
-    {
-        <nav class="sub-navbar">
-            <div class="container">
-                <ul class="navbar-nav d-flex flex-row justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Home" asp-action="Index">TRANG CHỦ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Home" asp-action="ArtGoods">HÀNG HOẠ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Home" asp-action="Promotions">KHUYẾN MÃI</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Home" asp-action="Services">DỊCH VỤ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Home" asp-action="NewProducts">SẢN PHẨM MỚI</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Home" asp-action="Wholesale">DANH MỤC GIẢ SỈ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Home" asp-action="Blog">BLOG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Home" asp-action="Contact">LIÊN HỆ</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    }
-
-    <div class="body-container @(ViewContext.RouteData.Values["area"]?.ToString() != "Admin" ? "no-sidebar" : "")">
-        @if (ViewContext.RouteData.Values["area"]?.ToString() == "Admin")
-        {
-            <div class="sidebar">
-                <h4>Quản lý</h4>
-                <ul class="list-unstyled">
-                    <li><a asp-controller="Products" asp-action="Index" class="nav-link"><i class="bi bi-box-seam"></i> Sản phẩm</a></li>
-                    <li><a asp-controller="Categories" asp-action="Index" class="nav-link"><i class="bi bi-list-ul"></i> Danh mục</a></li>
-                    <li><a href="#" class="nav-link"><i class="bi bi-cart-fill"></i> Đơn hàng</a></li>
-                    <li><a href="#" class="nav-link"><i class="bi bi-people-fill"></i> Khách hàng</a></li>
-                    <li><a href="#" class="nav-link"><i class="bi bi-bar-chart-fill"></i> Thống kê</a></li>
-                    <li><a href="#" class="nav-link"><i class="bi bi-gear-fill"></i> Cài đặt</a></li>
-                    <li><a asp-area="Identity" asp-page="/Account/Logout" class="nav-link text-danger"><i class="bi bi-box-arrow-left"></i> Đăng xuất</a></li>
-                </ul>
-            </div>
-        }
-
-        <div class="main-content container mt-3">
-            <main role="main" class="pb-3">
-                @RenderBody()
-            </main>
+    <nav class="sub-navbar">
+        <div class="container">
+            <ul class="navbar-nav d-flex flex-row justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Index">TRANG CHỦ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="ArtGoods">HÀNG HOẠ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Promotions">KHUYẾN MÃI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Services">DỊCH VỤ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="NewProducts">SẢN PHẨM MỚI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Wholesale">DANH MỤC GIẢ SỈ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Blog">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Contact">LIÊN HỆ</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+
+    <div class="main-content container mt-3">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
     </div>
 
     <footer>

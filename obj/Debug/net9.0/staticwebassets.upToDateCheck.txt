@@ -71,10 +71,12 @@ wwwroot\images\1bec1695-830a-412a-aca1-10f952196a0c.jpg
 wwwroot\images\29e03f1c-afd2-4342-bb10-ab25982bfa79.webp
 wwwroot\images\2d280626-5f41-4873-9977-48eeae0c2fd0.jpg
 wwwroot\images\3b9dfa9b-cbbb-4c8b-adee-2eb2e0d405c3.jpg
+wwwroot\images\491531105_29038424305802970_2628827638495098536_n.jpg
 wwwroot\images\4cb5bf4a-b1fa-4d50-92f5-5db694cdd416.jpg
 wwwroot\images\4da0191f-41b3-4016-8b90-7ba1dccb96b5.jpg
 wwwroot\images\4f78d1de-4bb6-43e7-a275-ce1e93fbcd81.png
 wwwroot\images\56a06604-3693-478a-81c1-9e96baf5827c.jpg
+wwwroot\images\5eb38ad3-f478-4783-a93f-48ee7d09048d.jpg
 wwwroot\images\68b55f83-0579-4a64-9f02-dfb19107a903.jpg
 wwwroot\images\6abf6ba2-d3f0-45d7-b553-2e153a17c6c5.jpg
 wwwroot\images\746ea44d-9f34-4af2-992d-325557db04bf.jpg
@@ -91,6 +93,7 @@ wwwroot\images\9257f4fc-d323-43b2-a693-d34cfa636df9.jpg
 wwwroot\images\98d0a480-d80a-4b62-a3bb-32c3866fa477.jpg
 wwwroot\images\9b7c5273-9bb3-4028-ae45-3dcd96c0e5c3.jpg
 wwwroot\images\a8367463-c7da-451c-ab57-174b069199dc.jpg
+wwwroot\images\aaa.jpg
 wwwroot\images\ae13b881-06fc-4d89-9b57-f0bb3328ac57.jpg
 wwwroot\images\ae6e913a-248f-41ca-97a3-a3287f997a9b.jpg
 wwwroot\images\b23a77cc-e997-4d21-a742-9812996a8413.jpg
@@ -105,6 +108,7 @@ wwwroot\images\e02a2147-9d28-4785-822a-12368b991567.jpg
 wwwroot\images\eb778c12-f98f-4906-8a74-1803def85957.webp
 wwwroot\images\f00ec53c-a571-4350-b5c5-3d4860b1c4b3.jpg
 wwwroot\images\f1a6e165-fe49-4ab4-984c-22df82700130.jpg
+wwwroot\images\f250f2d0-9dd6-48a1-b84e-5163d63c60d9.jpg
 wwwroot\images\f60a3170-2ef0-4b7e-8c69-b8df4e75129b.jpg
 wwwroot\images\f6e2a284-6f1c-414e-a4f2-98aa04e8f0e6.jpg
 wwwroot\images\fa5f6c59-6151-4c4a-83a2-d55614ed617e.jpg
@@ -113,6 +117,7 @@ wwwroot\images\fdba0a33-3452-493d-996d-edd403d079e7.jpg
 wwwroot\images\fe4b7387-6ae6-490d-8b0c-3eb9475be418.png
 wwwroot\images\login-image.jpg
 wwwroot\images\qr-code.png
+wwwroot\images\sample_products.sql
 wwwroot\images\shop-image.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

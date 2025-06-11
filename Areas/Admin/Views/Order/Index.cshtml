@@ -1,0 +1,197 @@
+﻿@model IEnumerable<Bai3_WebBanHang.Models.Order>
+
+@{
+    ViewData["Title"] = "Quản Lý Đơn Hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid mt-4">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Quản Lý Đơn Hàng</h1>
+        <div class="btn-toolbar mb-2 mb-md-0">
+            <button id="confirmSelected" class="btn btn-sm btn-success me-2 shadow-sm" disabled>
+                <i class="fas fa-check-circle me-1"></i> Xác Nhận Chọn
+            </button>
+            <button id="cancelSelected" class="btn btn-sm btn-warning me-2 shadow-sm" disabled>
+                <i class="fas fa-times-circle me-1"></i> Hủy Chọn
+            </button>
+            <button id="deleteSelected" class="btn btn-sm btn-danger shadow-sm" disabled>
+                <i class="fas fa-trash-alt me-1"></i> Xóa Chọn
+            </button>
+        </div>
+    </div>
+
+    <div class="card shadow-sm border-0">
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered align-middle mb-0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th class="text-center" style="width: 5%;"><input type="checkbox" id="selectAll" /></th>
+                            <th style="width: 10%;">Mã Đơn</th>
+                            <th>Khách Hàng</th>
+                            <th>Ngày Đặt</th>
+                            <th class="text-end">Tổng Tiền</th>
+                            <th class="text-center">Trạng Thái</th>
+                            <th class="text-center" style="width: 15%;">Hành Động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var order in Model)
+                        {
+                            <tr>
+                                <td class="text-center"><input type="checkbox" class="select-order" value="@order.Id" data-status="@order.OrderStatus" /></td>
+                                <td><strong>#@order.Id</strong></td>
+                                <td>@order.CustomerName</td>
+                                <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+                                <td class="text-end fw-bold text-danger">@order.TotalPrice.ToString("N0") ₫</td>
+                                <td class="text-center">
+                                    @if (order.OrderStatus == "Đang chờ thanh toán")
+                                    {
+                                        <span class="badge bg-warning text-dark">Chờ thanh toán</span>
+                                    }
+                                    else if (order.OrderStatus == "Đang xử lý")
+                                    {
+                                        <span class="badge bg-primary">Đang xử lý</span>
+                                    }
+                                    else if (order.OrderStatus == "Đã thanh toán" || order.OrderStatus == "Đã xác nhận")
+                                    {
+                                        <span class="badge bg-success">Đã xác nhận</span>
+                                    }
+                                    else if (order.OrderStatus == "Đang giao hàng")
+                                    {
+                                        <span class="badge bg-info">Đang giao hàng</span>
+                                    }
+                                    else if (order.OrderStatus == "Đã giao thành công")
+                                    {
+                                        <span class="badge bg-secondary">Hoàn tất</span>
+                                    }
+                                    else if (order.OrderStatus == "Đã hủy")
+                                    {
+                                        <span class="badge bg-danger">Đã hủy</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-dark">@order.OrderStatus</span>
+                                    }
+                                </td>
+                                <td class="text-center">
+                                    <!-- SỬA LỖI Ở ĐÂY: Thêm asp-area -->
+                                    <a asp-area="Admin" asp-controller="Order" asp-action="Details" asp-route-id="@order.Id" class="btn btn-sm btn-info" title="Xem chi tiết">
+                                        <i class="fas fa-eye"></i> Xem
+                                    </a>
+                                    <button class="btn btn-sm btn-danger delete-order" data-id="@order.Id" title="Xóa đơn hàng">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Hàm xử lý chung cho các action hàng loạt
+            function handleBulkAction(actionUrl, confirmMessage, dataPayload) {
+                const selectedIds = $('.select-order:checked').map(function () {
+                    return $(this).val();
+                }).get();
+
+                if (selectedIds.length === 0) {
+                    alert('Vui lòng chọn ít nhất một đơn hàng.');
+                    return;
+                }
+
+                if (confirm(confirmMessage)) {
+                    dataPayload.ids = selectedIds;
+
+                    $.ajax({
+                        url: actionUrl,
+                        type: 'POST',
+                        traditional: true,
+                        data: dataPayload,
+                        success: function (response) {
+                            alert(response.message);
+                            if (response.success) location.reload();
+                        },
+                        error: function () {
+                            alert('Có lỗi xảy ra, vui lòng thử lại.');
+                        }
+                    });
+                }
+            }
+
+            // SỬA LỖI Ở ĐÂY: Thêm new { area = "Admin" } vào Url.Action
+            $('#confirmSelected').on('click', function () {
+                handleBulkAction(
+                    '@Url.Action("UpdateSelectedStatus", "Order", new { area = "Admin" })',
+                    'Bạn có chắc chắn muốn XÁC NHẬN các đơn hàng được chọn?',
+                    { status: 'Đã xác nhận' }
+                );
+            });
+
+            $('#cancelSelected').on('click', function () {
+                handleBulkAction(
+                    '@Url.Action("UpdateSelectedStatus", "Order", new { area = "Admin" })',
+                    'Bạn có chắc chắn muốn HỦY các đơn hàng đã chọn?',
+                    { status: 'Đã hủy' }
+                );
+            });
+
+            $('#deleteSelected').on('click', function () {
+                handleBulkAction(
+                    '@Url.Action("DeleteSelected", "Order", new { area = "Admin" })',
+                    'Bạn có chắc chắn muốn XÓA VĨNH VIỄN các đơn hàng đã chọn? Hành động này không thể hoàn tác.',
+                    {}
+                );
+            });
+
+            $('.delete-order').on('click', function () {
+                const orderId = $(this).data('id');
+                if (confirm('Bạn có chắc chắn muốn xóa đơn hàng #' + orderId + '?')) {
+                     $.ajax({
+                        url: '@Url.Action("Delete", "Order", new { area = "Admin" })',
+                        type: 'POST',
+                        data: { id: orderId },
+                        success: function (response) {
+                            alert(response.message);
+                            if (response.success) location.reload();
+                        },
+                        error: function () {
+                            alert('Có lỗi xảy ra, vui lòng thử lại.');
+                        }
+                    });
+                }
+            });
+
+            // Logic chọn và bật/tắt nút
+            function toggleButtons() {
+                const anyChecked = $('.select-order:checked').length > 0;
+                const canConfirm = $('.select-order:checked[data-status="Đang chờ thanh toán"]').length > 0 || $('.select-order:checked[data-status="Đang xử lý"]').length > 0;
+
+                $('#confirmSelected').prop('disabled', !canConfirm);
+                $('#cancelSelected').prop('disabled', !anyChecked);
+                $('#deleteSelected').prop('disabled', !anyChecked);
+            }
+
+            $('#selectAll').on('change', function () {
+                $('.select-order').prop('checked', this.checked);
+                toggleButtons();
+            });
+
+            $('.select-order').on('change', function () {
+                if ($('.select-order:checked').length === $('.select-order').length) {
+                    $('#selectAll').prop('checked', true);
+                } else {
+                    $('#selectAll').prop('checked', false);
+                }
+                toggleButtons();
+            });
+        });
+    </script>
+}

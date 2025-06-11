@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OTwjzVOpH2ka2iFIkX1kGUsllbABdTLuWRR7eCYl7RY=",
+  "Hash": "L2s6kQQId4H7tMLW/JuiloDRBm9vbzbGYIHPSthZmqU=",
   "Source": "Bai3_WebBanHang",
   "BasePath": "_content/Bai3_WebBanHang",
   "Mode": "Default",
@@ -4259,6 +4259,27 @@
       "OriginalItemSpec": "wwwroot\\images\\3b9dfa9b-cbbb-4c8b-adee-2eb2e0d405c3.jpg"
     },
     {
+      "Identity": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\491531105_29038424305802970_2628827638495098536_n.jpg",
+      "SourceId": "Bai3_WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\",
+      "BasePath": "_content/Bai3_WebBanHang",
+      "RelativePath": "images/491531105_29038424305802970_2628827638495098536_n#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1g2fvvnfi",
+      "Integrity": "REfi6OE9PtKCvdA3Q3O2O2saQg+vOMz3P0w9XrBvGa0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\491531105_29038424305802970_2628827638495098536_n.jpg"
+    },
+    {
       "Identity": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\4cb5bf4a-b1fa-4d50-92f5-5db694cdd416.jpg",
       "SourceId": "Bai3_WebBanHang",
       "SourceType": "Discovered",
@@ -4341,6 +4362,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\56a06604-3693-478a-81c1-9e96baf5827c.jpg"
+    },
+    {
+      "Identity": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\5eb38ad3-f478-4783-a93f-48ee7d09048d.jpg",
+      "SourceId": "Bai3_WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\",
+      "BasePath": "_content/Bai3_WebBanHang",
+      "RelativePath": "images/5eb38ad3-f478-4783-a93f-48ee7d09048d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6v0tpt6jbl",
+      "Integrity": "XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5eb38ad3-f478-4783-a93f-48ee7d09048d.jpg"
     },
     {
       "Identity": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\68b55f83-0579-4a64-9f02-dfb19107a903.jpg",
@@ -4679,6 +4721,27 @@
       "OriginalItemSpec": "wwwroot\\images\\a8367463-c7da-451c-ab57-174b069199dc.jpg"
     },
     {
+      "Identity": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\aaa.jpg",
+      "SourceId": "Bai3_WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\",
+      "BasePath": "_content/Bai3_WebBanHang",
+      "RelativePath": "images/aaa#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8pn8zg0nem",
+      "Integrity": "/Cxv2vTCW50v1pgYTz12MoOhzAf61uA9UCEdgif2P7w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\aaa.jpg"
+    },
+    {
       "Identity": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\ae13b881-06fc-4d89-9b57-f0bb3328ac57.jpg",
       "SourceId": "Bai3_WebBanHang",
       "SourceType": "Discovered",
@@ -4973,6 +5036,27 @@
       "OriginalItemSpec": "wwwroot\\images\\f1a6e165-fe49-4ab4-984c-22df82700130.jpg"
     },
     {
+      "Identity": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\f250f2d0-9dd6-48a1-b84e-5163d63c60d9.jpg",
+      "SourceId": "Bai3_WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\",
+      "BasePath": "_content/Bai3_WebBanHang",
+      "RelativePath": "images/f250f2d0-9dd6-48a1-b84e-5163d63c60d9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6v0tpt6jbl",
+      "Integrity": "XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\f250f2d0-9dd6-48a1-b84e-5163d63c60d9.jpg"
+    },
+    {
       "Identity": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\f60a3170-2ef0-4b7e-8c69-b8df4e75129b.jpg",
       "SourceId": "Bai3_WebBanHang",
       "SourceType": "Discovered",
@@ -5139,6 +5223,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\qr-code.png"
+    },
+    {
+      "Identity": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\sample_products.sql",
+      "SourceId": "Bai3_WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\",
+      "BasePath": "_content/Bai3_WebBanHang",
+      "RelativePath": "images/sample_products#[.{fingerprint}]?.sql",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1xdrv0fevr",
+      "Integrity": "NW5CB7rEn4ACXbUe3E0C9jP6k/nAWPXE2wy9bE0eEtg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sample_products.sql"
     },
     {
       "Identity": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\shop-image.jpg",
@@ -6469,7 +6574,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:57:03 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6530,7 +6635,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:57:03 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6575,7 +6680,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:57:03 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6630,7 +6735,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:57:03 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6691,7 +6796,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:57:03 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6736,7 +6841,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:57:03 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6791,7 +6896,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:57:03 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6844,7 +6949,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:57:03 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6881,7 +6986,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:57:03 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6928,7 +7033,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:57:03 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6981,7 +7086,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:57:03 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7018,7 +7123,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 05:57:03 GMT"
+          "Value": "Wed, 11 Jun 2025 09:41:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16980,6 +17085,88 @@
       ]
     },
     {
+      "Route": "images/491531105_29038424305802970_2628827638495098536_n.jpg",
+      "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\491531105_29038424305802970_2628827638495098536_n.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95522"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"REfi6OE9PtKCvdA3Q3O2O2saQg+vOMz3P0w9XrBvGa0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 18:06:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-REfi6OE9PtKCvdA3Q3O2O2saQg+vOMz3P0w9XrBvGa0="
+        }
+      ]
+    },
+    {
+      "Route": "images/491531105_29038424305802970_2628827638495098536_n.o1g2fvvnfi.jpg",
+      "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\491531105_29038424305802970_2628827638495098536_n.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95522"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"REfi6OE9PtKCvdA3Q3O2O2saQg+vOMz3P0w9XrBvGa0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 18:06:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1g2fvvnfi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/491531105_29038424305802970_2628827638495098536_n.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-REfi6OE9PtKCvdA3Q3O2O2saQg+vOMz3P0w9XrBvGa0="
+        }
+      ]
+    },
+    {
       "Route": "images/4cb5bf4a-b1fa-4d50-92f5-5db694cdd416.c4rklm4jlo.jpg",
       "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\4cb5bf4a-b1fa-4d50-92f5-5db694cdd416.jpg",
       "Selectors": [],
@@ -17304,6 +17491,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Hl7yBd2F1PqOBL5V7NEMTQdfVj1u3FlEycFTOl2WBOM="
+        }
+      ]
+    },
+    {
+      "Route": "images/5eb38ad3-f478-4783-a93f-48ee7d09048d.6v0tpt6jbl.jpg",
+      "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\5eb38ad3-f478-4783-a93f-48ee7d09048d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "213095"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 09:22:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6v0tpt6jbl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/5eb38ad3-f478-4783-a93f-48ee7d09048d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko="
+        }
+      ]
+    },
+    {
+      "Route": "images/5eb38ad3-f478-4783-a93f-48ee7d09048d.jpg",
+      "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\5eb38ad3-f478-4783-a93f-48ee7d09048d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "213095"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 09:22:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko="
         }
       ]
     },
@@ -18620,6 +18889,88 @@
       ]
     },
     {
+      "Route": "images/aaa.8pn8zg0nem.jpg",
+      "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\aaa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140373"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/Cxv2vTCW50v1pgYTz12MoOhzAf61uA9UCEdgif2P7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 20:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8pn8zg0nem"
+        },
+        {
+          "Name": "label",
+          "Value": "images/aaa.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/Cxv2vTCW50v1pgYTz12MoOhzAf61uA9UCEdgif2P7w="
+        }
+      ]
+    },
+    {
+      "Route": "images/aaa.jpg",
+      "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\aaa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140373"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/Cxv2vTCW50v1pgYTz12MoOhzAf61uA9UCEdgif2P7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 20:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/Cxv2vTCW50v1pgYTz12MoOhzAf61uA9UCEdgif2P7w="
+        }
+      ]
+    },
+    {
       "Route": "images/ae13b881-06fc-4d89-9b57-f0bb3328ac57.jpg",
       "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\ae13b881-06fc-4d89-9b57-f0bb3328ac57.jpg",
       "Selectors": [],
@@ -19768,6 +20119,88 @@
       ]
     },
     {
+      "Route": "images/f250f2d0-9dd6-48a1-b84e-5163d63c60d9.6v0tpt6jbl.jpg",
+      "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\f250f2d0-9dd6-48a1-b84e-5163d63c60d9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "213095"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 09:22:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6v0tpt6jbl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/f250f2d0-9dd6-48a1-b84e-5163d63c60d9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko="
+        }
+      ]
+    },
+    {
+      "Route": "images/f250f2d0-9dd6-48a1-b84e-5163d63c60d9.jpg",
+      "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\f250f2d0-9dd6-48a1-b84e-5163d63c60d9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "213095"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 09:22:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko="
+        }
+      ]
+    },
+    {
       "Route": "images/f60a3170-2ef0-4b7e-8c69-b8df4e75129b.i2wiriq9rm.jpg",
       "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\f60a3170-2ef0-4b7e-8c69-b8df4e75129b.jpg",
       "Selectors": [],
@@ -20420,6 +20853,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-9TysdDgI3nQLkwMYMsASrsM+aH8kT1gCX0RVUwIvlpI="
+        }
+      ]
+    },
+    {
+      "Route": "images/sample_products.1xdrv0fevr.sql",
+      "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\sample_products.sql",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NW5CB7rEn4ACXbUe3E0C9jP6k/nAWPXE2wy9bE0eEtg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 16:32:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1xdrv0fevr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/sample_products.sql"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NW5CB7rEn4ACXbUe3E0C9jP6k/nAWPXE2wy9bE0eEtg="
+        }
+      ]
+    },
+    {
+      "Route": "images/sample_products.sql",
+      "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\sample_products.sql",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NW5CB7rEn4ACXbUe3E0C9jP6k/nAWPXE2wy9bE0eEtg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 16:32:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NW5CB7rEn4ACXbUe3E0C9jP6k/nAWPXE2wy9bE0eEtg="
         }
       ]
     },

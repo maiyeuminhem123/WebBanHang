@@ -14,14 +14,12 @@ namespace Bai3_WebBanHang.Controllers
         {
             _context = context;
         }
-
-        // Hiển thị danh sách sản phẩm
-        /*public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index()
         {
             var products = _context.Products.Include(p => p.Category);
             ViewBag.Categories = await _context.Categories.ToListAsync();
             return View(await products.ToListAsync());
-        }*/
+        }
 
 
         // Hiển thị chi tiết sản phẩm
@@ -40,3 +38,4 @@ namespace Bai3_WebBanHang.Controllers
         }
     }
 }
+       

@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\images\\3b9dfa9b-cbbb-4c8b-adee-2eb2e0d405c3.jpg"
     },
     {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\491531105_29038424305802970_2628827638495098536_n.jpg",
+      "PackagePath": "staticwebassets\\images\\491531105_29038424305802970_2628827638495098536_n.jpg"
+    },
+    {
       "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\4cb5bf4a-b1fa-4d50-92f5-5db694cdd416.jpg",
       "PackagePath": "staticwebassets\\images\\4cb5bf4a-b1fa-4d50-92f5-5db694cdd416.jpg"
     },
@@ -63,6 +67,10 @@
     {
       "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\56a06604-3693-478a-81c1-9e96baf5827c.jpg",
       "PackagePath": "staticwebassets\\images\\56a06604-3693-478a-81c1-9e96baf5827c.jpg"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\5eb38ad3-f478-4783-a93f-48ee7d09048d.jpg",
+      "PackagePath": "staticwebassets\\images\\5eb38ad3-f478-4783-a93f-48ee7d09048d.jpg"
     },
     {
       "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\68b55f83-0579-4a64-9f02-dfb19107a903.jpg",
@@ -129,6 +137,10 @@
       "PackagePath": "staticwebassets\\images\\a8367463-c7da-451c-ab57-174b069199dc.jpg"
     },
     {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\aaa.jpg",
+      "PackagePath": "staticwebassets\\images\\aaa.jpg"
+    },
+    {
       "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\ae13b881-06fc-4d89-9b57-f0bb3328ac57.jpg",
       "PackagePath": "staticwebassets\\images\\ae13b881-06fc-4d89-9b57-f0bb3328ac57.jpg"
     },
@@ -185,6 +197,10 @@
       "PackagePath": "staticwebassets\\images\\f1a6e165-fe49-4ab4-984c-22df82700130.jpg"
     },
     {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\f250f2d0-9dd6-48a1-b84e-5163d63c60d9.jpg",
+      "PackagePath": "staticwebassets\\images\\f250f2d0-9dd6-48a1-b84e-5163d63c60d9.jpg"
+    },
+    {
       "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\f60a3170-2ef0-4b7e-8c69-b8df4e75129b.jpg",
       "PackagePath": "staticwebassets\\images\\f60a3170-2ef0-4b7e-8c69-b8df4e75129b.jpg"
     },
@@ -215,6 +231,10 @@
     {
       "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\qr-code.png",
       "PackagePath": "staticwebassets\\images\\qr-code.png"
+    },
+    {
+      "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\sample_products.sql",
+      "PackagePath": "staticwebassets\\images\\sample_products.sql"
     },
     {
       "Id": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\shop-image.jpg",

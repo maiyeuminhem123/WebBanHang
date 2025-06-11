@@ -1211,4 +1211,8 @@ D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_Nguy
 D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\ref\Bai3_WebBanHang.dll
 D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\NguyenVanThuan_NguyenHoNgocTruc\Bai3_WebBanHang\obj\Debug\net9.0\compressed\q5pcohm5cx-0byf39qbww.gz
 D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\compressed\q5pcohm5cx-0byf39qbww.gz
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\Bai3_WebBanHang.sourcelink.json
 D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\Pipelines.Sockets.Unofficial.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\StackExchange.Redis.dll
+D:\lập trình web\baitap.netcore\2280603156_NguyenVanThuan\2280603156_NguyenVanThuan\Bai3_WebBanHang\bin\Debug\net9.0\VNPAY.NET.dll

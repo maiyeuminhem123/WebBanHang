@@ -8,10 +8,8 @@ namespace Bai3_WebBanHang.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "UserId là bắt buộc")]
         public string UserId { get; set; } = string.Empty; // Khởi tạo giá trị mặc định
 
-        [Required(ErrorMessage = "Ngày đặt hàng là bắt buộc")]
         public DateTime OrderDate { get; set; }
 
         public decimal TotalPrice { get; set; }
@@ -36,6 +34,8 @@ namespace Bai3_WebBanHang.Models
         [ValidateNever]
         public ApplicationUser? ApplicationUser { get; set; } // Đánh dấu là nullable
         public decimal TotalAmount { get; set; }
+        public string? OrderStatus { get; set; } // Thêm dòng này vào
+        public string? PaymentMethod { get; set; }
         public List<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>(); // Khởi tạo danh sách
     }
 }

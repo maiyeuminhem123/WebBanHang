@@ -1,3 +1,142 @@
-﻿@model int
-<h2>Order Completed</h2>
-<p>Your order with ID @Model has been placed successfully.</p>
+﻿@model Bai3_WebBanHang.Models.Order
+
+@{
+    ViewData["Title"] = "Đặt Hàng Thành Công";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+<div class="container my-5">
+    <!-- Thanh trạng thái được cải tiến - Tất cả các bước đều hoàn thành -->
+    <div class="progress-container mb-5">
+        <div class="progress-step active">
+            <div class="step-icon"><i class="fas fa-shopping-cart"></i></div>
+            <p>Giỏ Hàng</p>
+        </div>
+        <div class="progress-step active">
+            <div class="step-icon"><i class="fas fa-user-check"></i></div>
+            <p>Thông Tin</p>
+        </div>
+        <div class="progress-step active">
+            <div class="step-icon"><i class="fas fa-credit-card"></i></div>
+            <p>Thanh Toán</p>
+        </div>
+        <div class="progress-step active">
+            <div class="step-icon"><i class="fas fa-check-circle"></i></div>
+            <p>Hoàn Tất</p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card shadow-sm border-0 rounded-3 text-center p-4 p-md-5">
+                <div class="card-body">
+                    <i class="fas fa-check-circle text-success mb-3" style="font-size: 5rem;"></i>
+                    <h1 class="display-6 fw-bold">Đặt Hàng Thành Công!</h1>
+                    <p class="lead text-muted">Cảm ơn bạn đã tin tưởng và mua sắm. Đơn hàng của bạn đã được tiếp nhận.</p>
+
+                    <div class="alert alert-success mt-4">
+                        Mã đơn hàng của bạn là: <strong class="fs-5">#@Model.Id</strong>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <h5 class="mb-3 text-start">Tóm tắt đơn hàng</h5>
+                    <div class="info-summary text-start">
+                        <p><strong>Khách hàng:</strong> @Model.CustomerName</p>
+                        <p><strong>Số điện thoại:</strong> @Model.PhoneNumber</p>
+                        <p><strong>Giao đến:</strong> @Model.ShippingAddress</p>
+                        <p><strong>Ngày đặt:</strong> @Model.OrderDate.ToString("dd/MM/yyyy")</p>
+                        <p><strong>Tổng tiền:</strong> <span class="text-danger fw-bold">@Model.TotalPrice.ToString("N0") ₫</span></p>
+                        <p><strong>Thanh toán:</strong> @Model.PaymentMethod</p>
+                    </div>
+
+                    <div class="mt-4">
+                        <a asp-controller="Home" asp-action="Index" class="btn btn-primary btn-lg me-2">
+                            <i class="fas fa-home me-2"></i> Về Trang Chủ
+                        </a>
+                        <a asp-controller="Order" asp-action="Index" class="btn btn-outline-secondary btn-lg">
+                            <i class="fas fa-history me-2"></i> Lịch Sử Đơn Hàng
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Copy Style từ các trang trước để đồng bộ */
+    .progress-container {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+        .progress-container::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            height: 4px;
+            width: 100%;
+            background-color: #e0e0e0;
+            z-index: -1;
+        }
+
+    .progress-step {
+        text-align: center;
+        color: #999;
+        flex: 1;
+        position: relative;
+    }
+
+        .progress-step .step-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #e0e0e0;
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: 4px solid #fff;
+            transition: all 0.3s ease;
+        }
+
+        .progress-step p {
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .progress-step.active .step-icon {
+            background-color: #28a745;
+            border-color: #fff; /* Thay đổi màu viền để nổi bật hơn */
+        }
+
+        .progress-step.active p {
+            font-weight: bold;
+            color: #28a745;
+        }
+
+    /* Custom style cho trang này */
+    .info-summary p {
+        background-color: #f8f9fa;
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .info-summary strong {
+        display: inline-block;
+        width: 120px;
+        color: #6c757d;
+    }
+</style>

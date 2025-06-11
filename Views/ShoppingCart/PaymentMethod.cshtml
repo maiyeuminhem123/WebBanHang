@@ -1,151 +1,282 @@
-﻿@model Bai3_WebBanHang.Models.Order
+﻿@using Bai3_WebBanHang.Models
+@model Order
 
 @{
     ViewData["Title"] = "Hình Thức Thanh Toán";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="container my-5">
-    <h2 class="text-center mb-4">Hình Thức Thanh Toán</h2>
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 
-    <!-- Thanh trạng thái -->
-    <div class="d-flex justify-content-between align-items-center mb-5 p-3 rounded" style="background-color: #f8d7da;">
-        <div class="text-center">
-            <span class="badge bg-success rounded-circle p-2"><i class="fas fa-shopping-cart"></i></span>
-            <p class="mb-0">Giỏ hàng</p>
+<div class="container my-5">
+    <div class="text-center mb-5">
+        <h1 class="display-5 fw-bold">Xác Nhận & Thanh Toán</h1>
+        <p class="text-muted">Kiểm tra lại đơn hàng và chọn hình thức thanh toán phù hợp.</p>
+    </div>
+
+    <!-- Thanh trạng thái được cải tiến -->
+    <div class="progress-container mb-5">
+        <div class="progress-step">
+            <div class="step-icon"><i class="fas fa-shopping-cart"></i></div>
+            <p>Giỏ Hàng</p>
         </div>
-        <div class="text-center">
-            <span class="badge bg-success rounded-circle p-2">2</span>
-            <p class="mb-0">Thông tin đặt hàng</p>
+        <div class="progress-step">
+            <div class="step-icon"><i class="fas fa-user-check"></i></div>
+            <p>Thông Tin</p>
         </div>
-        <div class="text-center">
-            <span class="badge bg-danger rounded-circle p-2"><i class="fas fa-credit-card"></i></span>
-            <p class="mb-0">Thanh toán</p>
+        <div class="progress-step active">
+            <div class="step-icon"><i class="fas fa-credit-card"></i></div>
+            <p>Thanh Toán</p>
         </div>
-        <div class="text-center">
-            <span class="badge bg-light rounded-circle p-2 text-dark"><i class="fas fa-check"></i></span>
-            <p class="mb-0">Hoàn tất</p>
+        <div class="progress-step">
+            <div class="step-icon"><i class="fas fa-check-circle"></i></div>
+            <p>Hoàn Tất</p>
         </div>
     </div>
 
     @if (TempData["Error"] != null)
     {
-        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <div class="alert alert-danger" role="alert">
             @TempData["Error"]
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">×</span>
-            </button>
         </div>
     }
 
     <div class="row">
-        <div class="col-md-6">
-            <div class="card shadow-sm p-4 mb-4">
-                <h3 class="mb-4">Thông tin khách mua hàng</h3>
+        <!-- Cột thông tin khách hàng và đơn hàng -->
+        <div class="col-lg-7">
+            <div class="card shadow-sm border-0 rounded-3">
+                <div class="card-body p-4 p-md-5">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h4 class="mb-0">Thông Tin Đơn Hàng</h4>
+                        <a href="@Url.Action("Checkout", "ShoppingCart")" class="btn btn-sm btn-outline-secondary">
+                            <i class="fas fa-pen me-1"></i> Sửa
+                        </a>
+                    </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Họ và tên</label>
-                    <p class="form-control">@Model.CustomerName</p>
-                </div>
+                    <div class="info-group">
+                        <span class="info-label">Khách hàng:</span>
+                        <span class="info-value">@Model.CustomerName</span>
+                    </div>
+                    <div class="info-group">
+                        <span class="info-label">Số điện thoại:</span>
+                        <span class="info-value">@Model.PhoneNumber</span>
+                    </div>
+                    <div class="info-group">
+                        <span class="info-label">Giao đến:</span>
+                        <span class="info-value">@Model.ShippingAddress</span>
+                    </div>
+                    <div class="info-group">
+                        <span class="info-label">Ghi chú:</span>
+                        <span class="info-value">@(string.IsNullOrEmpty(Model.Notes) ? "Không có" : Model.Notes)</span>
+                    </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Số điện thoại</label>
-                    <p class="form-control">@Model.PhoneNumber</p>
-                </div>
+                    <hr class="my-4">
 
-                <div class="mb-3">
-                    <label class="form-label">Email</label>
-                    <p class="form-control">@Model.Email</p>
-                </div>
-
-                <h5 class="mb-3">Địa chỉ giao hàng</h5>
-                <div class="card p-3 mb-3">
-                    <p class="form-control mb-0">@Model.ShippingAddress</p>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Lưu ý, yêu cầu khác</label>
-                    <p class="form-control">@(string.IsNullOrEmpty(Model.Notes) ? "Không có" : Model.Notes)</p>
+                    <h5 class="mb-3">Chi tiết sản phẩm</h5>
+                    @foreach (var item in ViewBag.Cart.Items)
+                    {
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="text-muted">@item.Name x @item.Quantity</span>
+                            <span class="fw-bold">@((item.Price * item.Quantity).ToString("N0")) ₫</span>
+                        </div>
+                    }
                 </div>
             </div>
         </div>
 
-        <div class="col-md-6">
-            <div class="card shadow-sm p-4 mb-4">
-                <h3 class="mb-4">Thông tin đơn hàng</h3>
+        <!-- Cột phương thức thanh toán -->
+        <div class="col-lg-5 mt-4 mt-lg-0">
+            <div class="card shadow-sm border-0 rounded-3">
+                <div class="card-body p-4 p-md-5">
+                    <h4 class="mb-4">Chọn Phương Thức Thanh Toán</h4>
+                    <form asp-action="ProcessOrder" asp-controller="ShoppingCart" method="post">
+                        <!-- Truyền lại các thông tin đơn hàng -->
+                        <input type="hidden" asp-for="CustomerName" />
+                        <input type="hidden" asp-for="Email" />
+                        <input type="hidden" asp-for="PhoneNumber" />
+                        <input type="hidden" asp-for="ShippingAddress" />
+                        <input type="hidden" asp-for="Notes" />
+                        <input type="hidden" asp-for="TotalPrice" />
 
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Sản phẩm</th>
-                            <th>Số lượng</th>
-                            <th>Thành tiền</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var item in ViewBag.Cart.Items)
-                        {
-                            <tr>
-                                <td>@item.Name</td>
-                                <td>@item.Quantity</td>
-                                <td>@(item.Price * item.Quantity) USD</td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
+                        <div class="payment-method-options">
+                            <div class="form-check payment-option">
+                                <input class="form-check-input" type="radio" name="paymentMethod" id="cod" value="COD" checked>
+                                <label class="form-check-label" for="cod">
+                                    <i class="fas fa-truck-fast payment-icon"></i>
+                                    <div>
+                                        <span class="payment-title">Thanh toán khi nhận hàng (COD)</span>
+                                        <p class="payment-desc">Thanh toán tiền mặt cho nhân viên giao hàng.</p>
+                                    </div>
+                                </label>
+                            </div>
 
-                <div class="d-flex justify-content-between align-items-center p-3 bg-light rounded">
-                    <h5 class="mb-0">Tổng tiền:</h5>
-                    <h5 class="text-danger mb-0">@Model.TotalAmount.ToString("N0")đ</h5>
+                            <div class="form-check payment-option">
+                                <input class="form-check-input" type="radio" name="paymentMethod" id="paypal" value="PayPal">
+                                <label class="form-check-label" for="paypal">
+                                    <i class="fab fa-paypal payment-icon"></i>
+                                    <div>
+                                        <span class="payment-title">Thanh toán bằng PayPal</span>
+                                        <p class="payment-desc">An toàn và bảo mật. Bạn sẽ được chuyển đến PayPal.</p>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="form-check payment-option">
+                                <input class="form-check-input" type="radio" name="paymentMethod" id="vnpay" value="VnPay">
+                                <label class="form-check-label" for="vnpay">
+                                    <img src="https://vnpay.vn/s1/statics.vnpay.vn/vnpay_vn/logo.svg" alt="VNPay" class="payment-img-icon" />
+                                    <div>
+                                        <span class="payment-title">Thanh toán qua VNPAY</span>
+                                        <p class="payment-desc">Sử dụng QR Code hoặc ứng dụng ngân hàng.</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-bold">Tổng thanh toán</span>
+                            <span class="text-danger fs-4 fw-bold">@Model.TotalPrice.ToString("N0") ₫</span>
+                        </div>
+
+                        <div class="d-grid mt-4">
+                            <button type="submit" class="btn btn-success btn-lg">
+                                <i class="fas fa-lock me-2"></i> HOÀN TẤT ĐẶT HÀNG
+                            </button>
+                        </div>
+                    </form>
                 </div>
-            </div>
-
-            <div class="card shadow-sm p-4">
-                <h5 class="mb-3">Chọn hình thức thanh toán</h5>
-                <form asp-action="PaymentMethod" method="post">
-                    <input type="hidden" asp-for="CustomerName" />
-                    <input type="hidden" asp-for="Email" />
-                    <input type="hidden" asp-for="PhoneNumber" />
-                    <input type="hidden" asp-for="ShippingAddress" />
-                    <input type="hidden" asp-for="Notes" />
-                    <input type="hidden" asp-for="TotalAmount" />
-
-                    <div class="form-check mb-3">
-                        <input class="form-check-input" type="radio" name="paymentMethod" id="cod" value="cod" checked>
-                        <label class="form-check-label" for="cod">
-                            <i class="fas fa-truck mr-2"></i> Thanh toán khi nhận hàng (COD)
-                        </label>
-                    </div>
-
-                    <div class="form-check mb-4">
-                        <input class="form-check-input" type="radio" name="paymentMethod" id="paypal" value="paypal">
-                        <label class="form-check-label" for="paypal">
-                            <i class="fab fa-paypal mr-2"></i> Thanh toán qua PayPal
-                        </label>
-                    </div>
-
-                    <button type="submit" class="btn btn-danger btn-lg w-100">ĐẶT HÀNG NGAY</button>
-                    <p class="text-center mt-2 text-muted payment-message">
-                        Đơn hàng sẽ được giao đến bạn và thanh toán khi nhận hàng.
-                    </p>
-                </form>
             </div>
         </div>
     </div>
 </div>
 
-@section Scripts {
-    <script>
-        // Hiển thị thông báo phù hợp khi chọn hình thức thanh toán
-        document.querySelectorAll('input[name="paymentMethod"]').forEach(function (radio) {
-            radio.addEventListener('change', function () {
-                const message = document.querySelector('.payment-message');
-                if (this.value === 'paypal') {
-                    message.textContent = 'Bạn sẽ được chuyển hướng đến PayPal để hoàn tất thanh toán.';
-                } else {
-                    message.textContent = 'Đơn hàng sẽ được giao đến bạn và thanh toán khi nhận hàng.';
-                }
-            });
-        });
-    </script>
-}
+<style>
+    /* Copy Style từ các trang trước để đồng bộ */
+    .progress-container {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+        .progress-container::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            height: 4px;
+            width: 100%;
+            background-color: #e0e0e0;
+            z-index: -1;
+        }
+
+    .progress-step {
+        text-align: center;
+        color: #999;
+        flex: 1;
+        position: relative;
+    }
+
+        .progress-step .step-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #e0e0e0;
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: 4px solid #fff;
+            transition: all 0.3s ease;
+        }
+
+        .progress-step p {
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .progress-step.active .step-icon {
+            background-color: #28a745;
+            border-color: #e0e0e0;
+        }
+
+        .progress-step.active p {
+            font-weight: bold;
+            color: #28a745;
+        }
+
+    /* Custom style cho trang này */
+    .info-group {
+        display: flex;
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .info-label {
+        color: #6c757d;
+        width: 120px;
+        flex-shrink: 0;
+    }
+
+    .info-value {
+        font-weight: 500;
+    }
+
+    .payment-option {
+        border: 1px solid #dee2e6;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        transition: all 0.2s ease-in-out;
+    }
+
+        .payment-option:has(.form-check-input:checked) {
+            border-color: #0d6efd;
+            background-color: #f4f8ff;
+        }
+
+        .payment-option .form-check-label {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .payment-option .form-check-input {
+            float: none;
+            margin-right: 1rem;
+            margin-top: 0;
+        }
+
+    .payment-icon {
+        font-size: 2rem;
+        color: #0d6efd;
+        width: 40px;
+        text-align: center;
+        margin-right: 1rem;
+    }
+
+    .payment-img-icon {
+        width: 40px;
+        height: auto;
+        margin-right: 1rem;
+    }
+
+    .payment-title {
+        font-weight: 500;
+        margin-bottom: 0.1rem;
+    }
+
+    .payment-desc {
+        font-size: 0.85rem;
+        color: #6c757d;
+        margin-bottom: 0;
+    }
+</style>
