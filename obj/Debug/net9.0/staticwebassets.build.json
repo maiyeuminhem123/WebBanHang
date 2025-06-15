@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L2s6kQQId4H7tMLW/JuiloDRBm9vbzbGYIHPSthZmqU=",
+  "Hash": "AO1QDVXHO2Vy361xf84//F9dmAIZFIwxFJB42ykIV/I=",
   "Source": "Bai3_WebBanHang",
   "BasePath": "_content/Bai3_WebBanHang",
   "Mode": "Default",
@@ -4343,6 +4343,27 @@
       "OriginalItemSpec": "wwwroot\\images\\4f78d1de-4bb6-43e7-a275-ce1e93fbcd81.png"
     },
     {
+      "Identity": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\54b89706-7bd1-423c-ae07-2b426bcf7cdc.jpg",
+      "SourceId": "Bai3_WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\",
+      "BasePath": "_content/Bai3_WebBanHang",
+      "RelativePath": "images/54b89706-7bd1-423c-ae07-2b426bcf7cdc#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6v0tpt6jbl",
+      "Integrity": "XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\54b89706-7bd1-423c-ae07-2b426bcf7cdc.jpg"
+    },
+    {
       "Identity": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\56a06604-3693-478a-81c1-9e96baf5827c.jpg",
       "SourceId": "Bai3_WebBanHang",
       "SourceType": "Discovered",
@@ -4467,6 +4488,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\773873b5-b6fc-4beb-8f59-c05ff319b297.jpg"
+    },
+    {
+      "Identity": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\7c1845d8-25d1-49f6-8dbf-2d2df95fdcf2.jpg",
+      "SourceId": "Bai3_WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\",
+      "BasePath": "_content/Bai3_WebBanHang",
+      "RelativePath": "images/7c1845d8-25d1-49f6-8dbf-2d2df95fdcf2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6v0tpt6jbl",
+      "Integrity": "XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\7c1845d8-25d1-49f6-8dbf-2d2df95fdcf2.jpg"
     },
     {
       "Identity": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\7f60dfd0-62be-4b2f-90ac-8acd8b5fc971.jpg",
@@ -17413,6 +17455,88 @@
       ]
     },
     {
+      "Route": "images/54b89706-7bd1-423c-ae07-2b426bcf7cdc.6v0tpt6jbl.jpg",
+      "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\54b89706-7bd1-423c-ae07-2b426bcf7cdc.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "213095"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6v0tpt6jbl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/54b89706-7bd1-423c-ae07-2b426bcf7cdc.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko="
+        }
+      ]
+    },
+    {
+      "Route": "images/54b89706-7bd1-423c-ae07-2b426bcf7cdc.jpg",
+      "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\54b89706-7bd1-423c-ae07-2b426bcf7cdc.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "213095"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko="
+        }
+      ]
+    },
+    {
       "Route": "images/56a06604-3693-478a-81c1-9e96baf5827c.jpg",
       "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\56a06604-3693-478a-81c1-9e96baf5827c.jpg",
       "Selectors": [],
@@ -17891,6 +18015,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 26 Mar 2025 19:28:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko="
+        }
+      ]
+    },
+    {
+      "Route": "images/7c1845d8-25d1-49f6-8dbf-2d2df95fdcf2.6v0tpt6jbl.jpg",
+      "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\7c1845d8-25d1-49f6-8dbf-2d2df95fdcf2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "213095"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6v0tpt6jbl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/7c1845d8-25d1-49f6-8dbf-2d2df95fdcf2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko="
+        }
+      ]
+    },
+    {
+      "Route": "images/7c1845d8-25d1-49f6-8dbf-2d2df95fdcf2.jpg",
+      "AssetFile": "D:\\lập trình web\\baitap.netcore\\2280603156_NguyenVanThuan\\2280603156_NguyenVanThuan\\Bai3_WebBanHang\\wwwroot\\images\\7c1845d8-25d1-49f6-8dbf-2d2df95fdcf2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "213095"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 16:39:44 GMT"
         },
         {
           "Name": "Cache-Control",

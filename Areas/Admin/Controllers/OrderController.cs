@@ -1,134 +1,135 @@
-﻿using Bai3_WebBanHang.Models;
+﻿// File: Areas/Admin/Controllers/OrderController.cs
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using Bai3_WebBanHang.Models;
+using Bai3_WebBanHang.Repositories;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Bai3_WebBanHang.Areas.Admin.Controllers
 {
-    [Area("Admin")]
-    [Authorize(Roles = "Admin")]
-    public class OrderController : Controller
+    public class OrderController : BaseAdminController
     {
-        private readonly BanHangContext _context;
+        private readonly IOrderRepository _orderRepository;
 
-        public OrderController(BanHangContext context)
+        public static readonly Dictionary<string, string> StatusDisplayNames = new Dictionary<string, string>
         {
-            _context = context;
+            { "Pending", "Đang chờ thanh toán" },
+            { "Confirmed", "Đã xác nhận" },
+            { "Preparing", "Chuẩn bị hàng" },
+            { "Shipping", "Đang giao hàng" },
+            { "Delivered", "Đã giao thành công" },
+            { "Cancelled", "Đã hủy" }
+        };
+
+        public OrderController(IOrderRepository orderRepository)
+        {
+            _orderRepository = orderRepository;
         }
 
-        // GET: Admin/Order - Hiển thị danh sách đơn hàng
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1, int pageSize = 10)
         {
-            var orders = await _context.Orders
-                                       .OrderByDescending(o => o.OrderDate)
-                                       .ToListAsync();
-            return View(orders);
+            var orders = await _orderRepository.GetAllBasicAsync();
+            var totalCount = orders.Count();
+            var pagedOrders = orders
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+            ViewBag.Page = page;
+            ViewBag.PageSize = pageSize;
+            ViewBag.TotalCount = totalCount;
+            ViewBag.TotalPages = (int)Math.Ceiling((double)totalCount / pageSize);
+            ViewBag.StatusDisplayNames = StatusDisplayNames;
+            return View(pagedOrders);
         }
 
-        // GET: Admin/Order/Details/5 - Xem chi tiết đơn hàng
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int id)
         {
-            if (id == null) return NotFound();
-
-            var order = await _context.Orders
-                .Include(o => o.OrderDetails)
-                .ThenInclude(od => od.Product)
-                .FirstOrDefaultAsync(m => m.Id == id);
-
+            var order = await _orderRepository.GetByIdAsync(id);
             if (order == null) return NotFound();
-
+            ViewBag.StatusDisplayNames = StatusDisplayNames;
             return View(order);
         }
 
-        // POST: Admin/Order/UpdateStatus - Cập nhật trạng thái
+        // Trong file Areas/Admin/Controllers/OrderController.cs
+
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> UpdateStatus(int id, string status)
         {
-            var order = await _context.Orders.FindAsync(id);
+            var order = await _orderRepository.GetByIdAsync(id);
             if (order == null)
             {
                 return Json(new { success = false, message = "Không tìm thấy đơn hàng." });
             }
 
-            // Có thể thêm logic kiểm tra chuyển đổi trạng thái hợp lệ ở đây
-            // Ví dụ: không thể hủy đơn hàng đã giao
+            // BƯỚC DỊCH NGƯỢC ĐÃ ĐƯỢC BỎ ĐI - GIỜ 'status' CHÍNH LÀ MÃ TIẾNG ANH
 
+            // Kiểm tra xem trạng thái mới có hợp lệ không
+            if (!StatusDisplayNames.ContainsKey(status))
+            {
+                return Json(new { success = false, message = $"Trạng thái '{status}' không hợp lệ." });
+            }
+
+            // Kiểm tra logic chuyển đổi trạng thái
+            if (!IsTransitionAllowed(order.OrderStatus, status))
+            {
+                return Json(new { success = false, message = $"Không thể chuyển trạng thái từ '{StatusDisplayNames.GetValueOrDefault(order.OrderStatus ?? "")}' sang '{StatusDisplayNames.GetValueOrDefault(status)}'." });
+            }
+
+            // Cập nhật trạng thái và lịch sử
             order.OrderStatus = status;
-            _context.Update(order);
-            await _context.SaveChangesAsync();
+            order.StatusHistory.Add(new OrderStatusHistory
+            {
+                Status = status,
+                Notes = "Admin đã cập nhật.",
+                UpdatedAt = DateTime.Now
+            });
 
-            return Json(new { success = true, message = $"Đã cập nhật trạng thái đơn hàng thành '{status}'." });
+            await _orderRepository.UpdateAsync(order);
+            return Json(new { success = true, message = "Cập nhật trạng thái thành công.", newStatus = status });
         }
 
-        // POST: Admin/Order/UpdateSelectedStatus - Cập nhật trạng thái cho nhiều đơn hàng
         [HttpPost]
-        public async Task<IActionResult> UpdateSelectedStatus(int[] ids, string status)
-        {
-            if (ids == null || !ids.Any())
-            {
-                return Json(new { success = false, message = "Vui lòng chọn ít nhất một đơn hàng." });
-            }
-
-            var orders = await _context.Orders.Where(o => ids.Contains(o.Id)).ToListAsync();
-
-            foreach (var order in orders)
-            {
-                // Chỉ cập nhật nếu trạng thái hợp lệ để thay đổi
-                // Ví dụ: chỉ xác nhận các đơn hàng đang "Chờ xử lý"
-                if (status == "Đã xác nhận" && order.OrderStatus == "Đang chờ xử lý")
-                {
-                    order.OrderStatus = status;
-                }
-                else if (status == "Đã hủy") // Có thể hủy ở nhiều trạng thái
-                {
-                    order.OrderStatus = status;
-                }
-                // Thêm các điều kiện khác nếu cần
-            }
-
-            await _context.SaveChangesAsync();
-            return Json(new { success = true, message = $"Đã cập nhật trạng thái cho {orders.Count} đơn hàng được chọn." });
-        }
-
-
-        // POST: Admin/Order/Delete/5 - Xóa một đơn hàng
-        [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
-            var order = await _context.Orders.FindAsync(id);
+            var order = await _orderRepository.GetByIdAsync(id);
             if (order == null)
             {
                 return Json(new { success = false, message = "Không tìm thấy đơn hàng." });
             }
-
-            var orderDetails = _context.OrderDetails.Where(d => d.OrderId == id);
-            _context.OrderDetails.RemoveRange(orderDetails);
-            _context.Orders.Remove(order);
-
-            await _context.SaveChangesAsync();
+            await _orderRepository.DeleteAsync(id);
             return Json(new { success = true, message = "Đã xóa đơn hàng thành công." });
         }
 
-        // POST: Admin/Order/DeleteSelected - Xóa nhiều đơn hàng
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteSelected(int[] ids)
         {
             if (ids == null || !ids.Any())
             {
                 return Json(new { success = false, message = "Vui lòng chọn ít nhất một đơn hàng để xóa." });
             }
+            await _orderRepository.DeleteRangeAsync(ids);
+            return Json(new { success = true, message = $"Đã xóa {ids.Length} đơn hàng được chọn." });
+        }
 
-            var orders = await _context.Orders.Where(o => ids.Contains(o.Id)).ToListAsync();
-            var orderDetails = await _context.OrderDetails.Where(d => ids.Contains(d.OrderId)).ToListAsync();
-
-            _context.OrderDetails.RemoveRange(orderDetails);
-            _context.Orders.RemoveRange(orders);
-
-            await _context.SaveChangesAsync();
-            return Json(new { success = true, message = $"Đã xóa {orders.Count} đơn hàng được chọn." });
+        private bool IsTransitionAllowed(string? fromStatus, string toStatus)
+        {
+            if (string.IsNullOrEmpty(fromStatus)) return false;
+            return (fromStatus, toStatus) switch
+            {
+                ("Pending", "Confirmed") => true,
+                ("Confirmed", "Preparing") => true,  
+                ("Preparing", "Shipping") => true,    
+                ("Shipping", "Delivered") => true,
+                ("Pending", "Cancelled") => true,
+                ("Confirmed", "Cancelled") => true,
+                _ => false
+            };
         }
     }
 }

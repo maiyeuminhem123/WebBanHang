@@ -1,0 +1,98 @@
+﻿@model Bai3_WebBanHang.Models.DashboardViewModel
+@{
+    ViewData["Title"] = "Bảng Điều Khiển";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid mt-4">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">@ViewData["Title"]</h1>
+        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Tạo Báo Cáo</a>
+    </div>
+
+    <div class="row">
+    </div>
+
+    <div class="row">
+        <div class="col-xl-8 col-lg-7">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3"><h6 class="m-0 font-weight-bold text-primary">Doanh Thu 7 Ngày Gần Nhất</h6></div>
+                <div class="card-body"><div class="chart-area"><canvas id="revenueChart"></canvas></div></div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-5">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3"><h6 class="m-0 font-weight-bold text-primary">Tỷ Trọng Doanh Thu Theo Danh Mục</h6></div>
+                <div class="card-body"><div class="chart-pie pt-4"><canvas id="categoryPieChart"></canvas></div></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-7 mb-4">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3"><h6 class="m-0 font-weight-bold text-primary">Top 5 Sản Phẩm Bán Chạy (Số lượng)</h6></div>
+                <div class="card-body"><canvas id="topProductsBarChart"></canvas></div>
+            </div>
+        </div>
+        <div class="col-lg-5 mb-4">
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // --- 1. BIỂU ĐỒ ĐƯỜNG: DOANH THU ---
+            new Chart(document.getElementById("revenueChart"), {
+                type: 'line',
+                data: {
+                    labels: @Html.Raw(Json.Serialize(Model.RevenueChartLabels)),
+                    datasets: [{
+                        label: "Doanh thu",
+                        borderColor: 'rgba(78, 115, 223, 1)',
+                        backgroundColor: 'rgba(78, 115, 223, 0.05)',
+                        data: @Html.Raw(Json.Serialize(Model.RevenueChartData)),
+                        fill: true,
+                    }]
+                },
+                options: { maintainAspectRatio: false, responsive: true }
+            });
+
+            // --- 2. BIỂU ĐỒ TRÒN: DANH MỤC ---
+            new Chart(document.getElementById("categoryPieChart"), {
+                type: 'doughnut',
+                data: {
+                    labels: @Html.Raw(Json.Serialize(Model.CategoryPieChartLabels)),
+                    datasets: [{
+                        data: @Html.Raw(Json.Serialize(Model.CategoryPieChartData)),
+                        backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc', '#f6c23e', '#e74a3b'],
+                    }]
+                },
+                options: { maintainAspectRatio: false, responsive: true }
+            });
+
+            // --- 3. BIỂU ĐỒ CỘT: SẢN PHẨM ---
+            new Chart(document.getElementById("topProductsBarChart"), {
+                type: 'bar',
+                data: {
+                    labels: @Html.Raw(Json.Serialize(Model.TopProductsBarChartLabels)),
+                    datasets: [{
+                        label: 'Số lượng đã bán',
+                        data: @Html.Raw(Json.Serialize(Model.TopProductsBarChartData)),
+                        backgroundColor: 'rgba(28, 200, 138, 0.7)',
+                        borderColor: 'rgba(28, 200, 138, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    maintainAspectRatio: false,
+                    responsive: true,
+                    indexAxis: 'y', // Biểu đồ cột ngang cho dễ đọc tên sản phẩm
+                    scales: { x: { beginAtZero: true } }
+                }
+            });
+        });
+    </script>
+}

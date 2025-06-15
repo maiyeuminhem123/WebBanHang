@@ -288,6 +288,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4f78d1de-4bb6-43e7-a275-ce1e93fbcd81.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\54b89706-7bd1-423c-ae07-2b426bcf7cdc.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Bai3_WebBanHang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Bai3_WebBanHang</BasePath>
+      <RelativePath>images/54b89706-7bd1-423c-ae07-2b426bcf7cdc.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6v0tpt6jbl</Fingerprint>
+      <Integrity>XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\54b89706-7bd1-423c-ae07-2b426bcf7cdc.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\56a06604-3693-478a-81c1-9e96baf5827c.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Bai3_WebBanHang</SourceId>
@@ -395,6 +413,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\773873b5-b6fc-4beb-8f59-c05ff319b297.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7c1845d8-25d1-49f6-8dbf-2d2df95fdcf2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Bai3_WebBanHang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Bai3_WebBanHang</BasePath>
+      <RelativePath>images/7c1845d8-25d1-49f6-8dbf-2d2df95fdcf2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6v0tpt6jbl</Fingerprint>
+      <Integrity>XuktH+5JOv2tN4qO4W1sAfpJ29zfdYJoH/cELpHL8Ko=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7c1845d8-25d1-49f6-8dbf-2d2df95fdcf2.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7f60dfd0-62be-4b2f-90ac-8acd8b5fc971.jpg'))">
       <SourceType>Package</SourceType>

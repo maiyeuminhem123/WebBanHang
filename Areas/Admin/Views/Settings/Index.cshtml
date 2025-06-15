@@ -1,0 +1,240 @@
+﻿@model Dictionary<string, string>
+
+@{
+    ViewData["Title"] = "Cài Đặt Hệ Thống";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+    // Hàm helper để lấy giá trị từ Dictionary một cách an toàn
+    string GetSetting(string key, string defaultValue = "")
+    {
+        return Model.ContainsKey(key) && !string.IsNullOrEmpty(Model[key]) ? Model[key] : defaultValue;
+    }
+}
+
+@section Styles {
+    <style>
+        /* --- Bố cục chung --- */
+        .nav-pills .nav-link {
+            color: #212529; /* Sửa lại: Đổi thành màu đen đậm cho dễ đọc */
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+            .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+                background-color: #0d6efd;
+                color: white;
+                box-shadow: 0 2px 5px rgba(13, 110, 253, 0.4);
+            }
+
+        .card-header {
+            background-color: #f8f9fa;
+            font-weight: 600;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .form-text {
+            font-size: 0.85rem;
+            color: #6c757d;
+        }
+
+        /* ===> CSS MỚI ĐỂ LÀM NỔI BẬT Ô NHẬP LIỆU <=== */
+        .settings-form .form-control, .settings-form .form-select {
+            background-color: #fff;
+            border: 1px solid #ced4da; /* Thêm viền rõ ràng */
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+
+            .settings-form .form-control:focus, .settings-form .form-select:focus {
+                border-color: #86b7fe;
+                box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+            }
+
+        .settings-form .form-label {
+            font-weight: 500;
+            color: #495057;
+        }
+
+        .settings-form .form-switch {
+            padding: 1rem;
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 0.375rem;
+        }
+
+            .settings-form .form-switch .form-check-label {
+                cursor: pointer;
+            }
+
+            .settings-form .form-switch .form-check-input {
+                width: 3em;
+                height: 1.5em;
+                cursor: pointer;
+            }
+    </style>
+}
+
+<div class="container-fluid mt-4">
+    <div class="d-flex justify-content-between align-items-center">
+        <h1 class="h3 mb-0 text-gray-800">@ViewData["Title"]</h1>
+    </div>
+    <hr />
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="row">
+        <div class="col-lg-3">
+            <!-- Menu điều hướng bên trái -->
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-general-tab" data-bs-toggle="pill" href="#v-pills-general" role="tab">⚙️ Cài Đặt Chung</a>
+                <a class="nav-link" id="v-pills-display-tab" data-bs-toggle="pill" href="#v-pills-display" role="tab">🎨 Giao Diện & Hiển Thị</a>
+                <a class="nav-link" id="v-pills-integrations-tab" data-bs-toggle="pill" href="#v-pills-integrations" role="tab">🔗 Tích hợp & API Keys</a>
+                <a class="nav-link" id="v-pills-shipping-tab" data-bs-toggle="pill" href="#v-pills-shipping" role="tab">🚚 Đơn Hàng & Vận Chuyển</a>
+                <a class="nav-link" id="v-pills-system-tab" data-bs-toggle="pill" href="#v-pills-system" role="tab">🛠️ Hệ Thống & Bảo Trì</a>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <!-- Thêm class settings-form vào thẻ form -->
+            <form class="settings-form" asp-action="Index" method="post" enctype="multipart/form-data">
+                @Html.AntiForgeryToken()
+                <div class="tab-content" id="v-pills-tabContent">
+                    <!-- Tab Cài Đặt Chung -->
+                    <div class="tab-pane fade show active" id="v-pills-general" role="tabpanel">
+                        <div class="card shadow-sm">
+                            <div class="card-header"><h5 class="mb-0">Thông Tin Cửa Hàng</h5></div>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold">Logo Cửa Hàng</label>
+                                    <div>
+                                        <img id="logoPreview" src="@(GetSetting("LogoUrl", "https://placehold.co/200x80?text=Your+Logo"))" alt="Logo Preview" style="height: 80px; border: 1px solid #ddd; padding: 5px; margin-bottom: 10px;" />
+                                    </div>
+                                    <input type="file" name="LogoFile" id="logoUploadInput" class="form-control" />
+                                    <input type="hidden" name="settings[LogoUrl]" value="@GetSetting("LogoUrl")" />
+                                    <div class="form-text">Tải lên logo mới. Nếu không chọn, logo cũ sẽ được giữ lại.</div>
+                                </div>
+                                <hr />
+                                <div class="mb-3">
+                                    <label class="form-label">Tên Cửa Hàng</label>
+                                    <input type="text" name="settings[StoreName]" value="@GetSetting("StoreName", "Tiệm Tạp Hóa Vn")" class="form-control" />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Số Điện Thoại Hotline</label>
+                                    <input type="text" name="settings[Hotline]" value="@GetSetting("Hotline")" class="form-control" />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Email Liên Hệ</label>
+                                    <input type="email" name="settings[ContactEmail]" value="@GetSetting("ContactEmail")" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab Giao Diện & Hiển Thị -->
+                    <div class="tab-pane fade" id="v-pills-display" role="tabpanel">
+                        <div class="card shadow-sm">
+                            <div class="card-header"><h5 class="mb-0">Cấu Hình Hiển Thị</h5></div>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <label class="form-label">Số Lượng Sản Phẩm "Nổi Bật" trên trang chủ</label>
+                                    <input type="number" name="settings[FeaturedProductsCount]" value="@GetSetting("FeaturedProductsCount", "4")" class="form-control" />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Giao diện mặc định cho người dùng mới</label>
+                                    <select name="settings[DefaultTheme]" class="form-select">
+                                        <option value="light" selected="@(GetSetting("DefaultTheme", "light") == "light")">Giao diện Sáng (Light Mode)</option>
+                                        <option value="dark" selected="@(GetSetting("DefaultTheme") == "dark")">Giao diện Tối (Dark Mode)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab Tích hợp & API Keys -->
+                    <div class="tab-pane fade" id="v-pills-integrations" role="tabpanel">
+                        <div class="card shadow-sm">
+                            <div class="card-header"><h5 class="mb-0">Tích hợp & API Keys</h5></div>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <label class="form-label">VNPAY TmnCode</label>
+                                    <input type="text" name="settings[VnpayTmnCode]" value="@GetSetting("VnpayTmnCode")" class="form-control" />
+                                    <div class="form-text">Mã định danh website của bạn tại VNPAY.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">VNPAY HashSecret</label>
+                                    <input type="password" name="settings[VnpayHashSecret]" value="@GetSetting("VnpayHashSecret")" class="form-control" />
+                                    <div class="form-text">Chuỗi bí mật để tạo chữ ký. Để trống nếu không muốn thay đổi.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab Đơn Hàng & Vận Chuyển -->
+                    <div class="tab-pane fade" id="v-pills-shipping" role="tabpanel">
+                        <div class="card shadow-sm">
+                            <div class="card-header"><h5 class="mb-0">Vận Chuyển</h5></div>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <label class="form-label">Phí Vận Chuyển Mặc Định (₫)</label>
+                                    <input type="number" name="settings[DefaultShippingFee]" value="@GetSetting("DefaultShippingFee", "30000")" class="form-control" />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Miễn Phí Vận Chuyển cho đơn hàng từ (₫)</label>
+                                    <input type="number" name="settings[FreeShippingThreshold]" value="@GetSetting("FreeShippingThreshold", "500000")" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab Hệ Thống & Bảo Trì -->
+                    <div class="tab-pane fade" id="v-pills-system" role="tabpanel">
+                        <div class="card shadow-sm">
+                            <div class="card-header"><h5 class="mb-0">Hệ Thống</h5></div>
+                            <div class="card-body">
+                                <div class="form-check form-switch mb-3">
+                                    <input class="form-check-input" type="checkbox" name="settings[MaintenanceMode]" value="true" id="maintenanceMode" @(GetSetting("MaintenanceMode") == "true" ? "checked" : "")>
+                                    <label class="form-check-label" for="maintenanceMode">Bật Chế Độ Bảo Trì</label>
+                                    <div class="form-text">Khi bật, khách hàng sẽ thấy thông báo bảo trì thay vì trang web.</div>
+                                    <input type="hidden" name="settings[MaintenanceMode]" value="@(GetSetting("MaintenanceMode") == "true" ? "true" : "false")" />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Tự Động Xóa Tài Khoản Không Hoạt Động Sau (ngày)</label>
+                                    <input type="number" name="settings[InactiveUserDeletionDays]" value="@GetSetting("InactiveUserDeletionDays", "300")" class="form-control" />
+                                    <div class="form-text">Đặt là 0 để tắt chức năng này.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 text-end">
+                    <button type="submit" class="btn btn-primary btn-lg">Lưu Tất Cả Cài Đặt</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        // Script để cập nhật giá trị của hidden input khi checkbox thay đổi
+        document.getElementById('maintenanceMode').addEventListener('change', function() {
+            // Input ẩn nằm ngay sau label, nên dùng nextElementSibling 2 lần
+            this.nextElementSibling.nextElementSibling.value = this.checked;
+        });
+
+        // Script để xem trước logo khi tải lên
+        document.getElementById('logoUploadInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    document.getElementById('logoPreview').src = e.target.result;
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+}

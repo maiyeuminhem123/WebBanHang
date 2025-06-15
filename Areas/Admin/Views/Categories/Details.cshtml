@@ -1,88 +1,56 @@
 ﻿@model Bai3_WebBanHang.Models.Category
 
 @{
+    ViewData["Title"] = "Chi Tiết Danh Mục";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<div class="category-details">
-    <div class="category-header">
-        <h1>@Model.Name</h1>
+<div class="container-fluid mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>@Model.Name</h2>
+        <a class="btn btn-secondary" asp-action="Index">
+            <i class="fas fa-arrow-left"></i> Quay về Danh Sách
+        </a>
     </div>
 
-    <div class="product-grid">
-        @if (Model.Products != null && Model.Products.Any())
-        {
+    <div class="card shadow-sm mb-4">
+        <div class="row g-0">
+            <div class="col-md-3 d-flex align-items-center justify-content-center p-3">
+                <img src="@(string.IsNullOrEmpty(Model.ImageUrl) ? "https://placehold.co/200x200?text=No+Image" : Model.ImageUrl)" alt="@Model.Name" class="img-fluid rounded" style="max-height: 200px;" />
+            </div>
+            <div class="col-md-9 p-4">
+                <h4 class="card-title">Tên Danh Mục: <strong>@Model.Name</strong></h4>
+                <p class="text-muted">Tổng số sản phẩm: <strong>@(Model.Products?.Count ?? 0)</strong></p>
+            </div>
+        </div>
+    </div>
+    <h4 class="mb-3">Danh sách sản phẩm thuộc danh mục này</h4>
+
+    @if (Model.Products != null && Model.Products.Any())
+    {
+        <div class="row row-cols-1 row-cols-md-4 g-3">
             @foreach (var product in Model.Products)
             {
-                <div class="product-item">
-                    @if (!string.IsNullOrEmpty(product.ImageUrl))
-                    {
-                        <img src="@product.ImageUrl" alt="@product.Name" class="product-image" />
-                    }
-                    <h3>@product.Name</h3>
-                    <p class="product-price">@product.Price.ToString("C")</p>
-                    <p>@product.Description</p>
-                    <a asp-controller="Products" asp-action="Details" asp-route-id="@product.Id" class="product-details-link">Xem Chi Tiết</a>
+                <div class="col">
+                    <div class="card shadow-sm h-100">
+                        <img src="@(string.IsNullOrEmpty(product.ImageUrl) ? "https://placehold.co/200x150?text=No+Image" : product.ImageUrl)"
+                             class="card-img-top"
+                             alt="@product.Name"
+                             style="height: 100px; object-fit: contain; padding: 10px;">
+                        <div class="card-body p-2">
+                            <h6 class="card-title mb-1 text-truncate">@product.Name</h6>
+                            <p class="text-primary fw-bold mb-1" style="font-size: 14px;">@product.Price.ToString("C")</p>
+                            <a asp-controller="Products" asp-action="Details" asp-route-id="@product.Id"
+                               class="btn btn-sm btn-outline-primary w-100">Chi Tiết</a>
+                        </div>
+                    </div>
                 </div>
             }
-        }
-        else
-        {
-            <p>Không có sản phẩm nào trong danh mục này.</p>
-        }
-    </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info">Không có sản phẩm nào trong danh mục này.</div>
+    }
+
 </div>
-
-<style>
-    .category-details {
-        max-width: 1000px;
-        margin: 20px auto;
-        padding: 30px;
-        background-color: #f9f9f9;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    .category-header {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    .product-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px;
-    }
-
-    .product-item {
-        border: 1px solid #ddd;
-        padding: 20px;
-        text-align: center;
-        border-radius: 8px;
-        background-color: white;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    .product-image {
-        max-width: 100%;
-        max-height: 150px;
-        object-fit: contain;
-        margin-bottom: 10px;
-        border-radius: 8px;
-    }
-
-    .product-price {
-        font-weight: bold;
-        color: #007bff;
-    }
-
-    .product-details-link {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        margin-top: 15px;
-    }
-</style>

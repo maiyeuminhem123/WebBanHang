@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bai3_WebBanHang.Migrations
 {
     [DbContext(typeof(BanHangContext))]
-    [Migration("20250611102534_AddPaymentMethodToOrder")]
-    partial class AddPaymentMethodToOrder
+    [Migration("20250613043600_FinalizeOrderCascadeRules")]
+    partial class FinalizeOrderCascadeRules
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -144,8 +144,18 @@ namespace Bai3_WebBanHang.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
+                    b.Property<string>("OrderCode")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("OrderDate")
-                        .HasColumnType("date");
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("OrderStatus")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasDefaultValue("Pending");
 
                     b.Property<string>("PaymentMethod")
                         .HasColumnType("nvarchar(max)");
@@ -161,20 +171,14 @@ namespace Bai3_WebBanHang.Migrations
                         .HasColumnType("nvarchar(200)");
 
                     b.Property<decimal>("TotalAmount")
-                        .HasColumnType("decimal(10, 2)");
-
-                    b.Property<decimal>("TotalPrice")
-                        .HasColumnType("decimal(10, 2)");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasMaxLength(450)
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id")
                         .HasName("PK_Orders");
-
-                    b.HasIndex("OrderDate");
 
                     b.HasIndex("UserId");
 
@@ -193,13 +197,16 @@ namespace Bai3_WebBanHang.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("decimal(10, 2)");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
+
+                    b.Property<decimal>("UnitPrice")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id")
                         .HasName("PK_OrderDetails");
@@ -209,6 +216,34 @@ namespace Bai3_WebBanHang.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("OrderDetails", (string)null);
+                });
+
+            modelBuilder.Entity("Bai3_WebBanHang.Models.OrderStatusHistory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Notes")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("OrderStatusHistories", (string)null);
                 });
 
             modelBuilder.Entity("Bai3_WebBanHang.Models.PaymentMethod", b =>
@@ -268,14 +303,12 @@ namespace Bai3_WebBanHang.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("decimal(10, 2)");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.HasKey("Id")
                         .HasName("PK_Products");
 
                     b.HasIndex("CategoryId");
-
-                    b.HasIndex("Name");
 
                     b.ToTable("Products", (string)null);
                 });
@@ -442,9 +475,8 @@ namespace Bai3_WebBanHang.Migrations
                     b.HasOne("Bai3_WebBanHang.Models.ApplicationUser", "ApplicationUser")
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired()
-                        .HasConstraintName("FK_Orders_UserId");
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("ApplicationUser");
                 });
@@ -455,19 +487,28 @@ namespace Bai3_WebBanHang.Migrations
                         .WithMany("OrderDetails")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK_OrderDetails_OrderId");
+                        .IsRequired();
 
                     b.HasOne("Bai3_WebBanHang.Models.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired()
-                        .HasConstraintName("FK_OrderDetails_ProductId");
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Order");
 
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("Bai3_WebBanHang.Models.OrderStatusHistory", b =>
+                {
+                    b.HasOne("Bai3_WebBanHang.Models.Order", "Order")
+                        .WithMany("StatusHistory")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
                 });
 
             modelBuilder.Entity("Bai3_WebBanHang.Models.Product", b =>
@@ -475,8 +516,7 @@ namespace Bai3_WebBanHang.Migrations
                     b.HasOne("Bai3_WebBanHang.Models.Category", "Category")
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.SetNull)
-                        .HasConstraintName("FK_Products_CategoryId");
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Category");
                 });
@@ -486,8 +526,7 @@ namespace Bai3_WebBanHang.Migrations
                     b.HasOne("Bai3_WebBanHang.Models.Product", "Product")
                         .WithMany("ProductImages")
                         .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .HasConstraintName("FK_ProductImages_ProductId");
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("Product");
                 });
@@ -551,6 +590,8 @@ namespace Bai3_WebBanHang.Migrations
             modelBuilder.Entity("Bai3_WebBanHang.Models.Order", b =>
                 {
                     b.Navigation("OrderDetails");
+
+                    b.Navigation("StatusHistory");
                 });
 
             modelBuilder.Entity("Bai3_WebBanHang.Models.Product", b =>

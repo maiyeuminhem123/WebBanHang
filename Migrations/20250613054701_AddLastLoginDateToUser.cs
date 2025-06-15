@@ -1,19 +1,20 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace Bai3_WebBanHang.Migrations
 {
     /// <inheritdoc />
-    public partial class AddPaymentMethodToOrder : Migration
+    public partial class AddLastLoginDateToUser : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<string>(
-                name: "PaymentMethod",
-                table: "Orders",
-                type: "nvarchar(max)",
+            migrationBuilder.AddColumn<DateTime>(
+                name: "LastLoginDate",
+                table: "AspNetUsers",
+                type: "datetime2",
                 nullable: true);
         }
 
@@ -21,8 +22,8 @@ namespace Bai3_WebBanHang.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "PaymentMethod",
-                table: "Orders");
+                name: "LastLoginDate",
+                table: "AspNetUsers");
         }
     }
 }

@@ -1,18 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using Bai3_WebBanHang.Models;
+﻿using Bai3_WebBanHang.Models;
 using Bai3_WebBanHang.Repositories;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Bai3_WebBanHang.Areas.Admin.Controllers
 {
-    [Area("Admin")]
-    public class CategoriesController : Controller
+    // Controller này đã kế thừa BaseAdminController nên đã được bảo vệ
+    public class CategoriesController : BaseAdminController
     {
         private readonly IProductRepository _productRepository;
         private readonly ICategoryRepository _categoryRepository;
@@ -23,16 +17,14 @@ namespace Bai3_WebBanHang.Areas.Admin.Controllers
             _categoryRepository = categoryRepository;
         }
 
-        // Index: Accessible to all users (authenticated or not)
-        [AllowAnonymous]
+        // GET: Admin/Categories
         public async Task<IActionResult> Index()
         {
-            var category = await _categoryRepository.GetAllAsync();
-            return View(category);
+            var categories = await _categoryRepository.GetAllAsync();
+            return View(categories);
         }
 
-        // Details: Accessible to all users (authenticated or not)
-        [AllowAnonymous]
+        // GET: Admin/Categories/Details/5
         public async Task<IActionResult> Details(int id)
         {
             var category = await _categoryRepository.GetByIdAsync(id);
@@ -43,16 +35,15 @@ namespace Bai3_WebBanHang.Areas.Admin.Controllers
             return View(category);
         }
 
-        // Create: Accessible to Admin and Employee
-        [Authorize(Roles = "Admin,Employee")]
+        // GET: Admin/Categories/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // Create POST: Accessible to Admin and Employee
+        // POST: Admin/Categories/Create
         [HttpPost]
-        [Authorize(Roles = "Admin,Employee")]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Category category)
         {
             if (ModelState.IsValid)
@@ -63,8 +54,7 @@ namespace Bai3_WebBanHang.Areas.Admin.Controllers
             return View(category);
         }
 
-        // Edit: Accessible to Admin and Employee
-        [Authorize(Roles = "Admin,Employee")]
+        // GET: Admin/Categories/Edit/5
         public async Task<IActionResult> Edit(int id)
         {
             var category = await _categoryRepository.GetByIdAsync(id);
@@ -75,9 +65,9 @@ namespace Bai3_WebBanHang.Areas.Admin.Controllers
             return View(category);
         }
 
-        // Edit POST: Accessible to Admin and Employee
+        // POST: Admin/Categories/Edit/5
         [HttpPost]
-        [Authorize(Roles = "Admin,Employee")]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, Category category)
         {
             if (id != category.Id)
@@ -92,8 +82,7 @@ namespace Bai3_WebBanHang.Areas.Admin.Controllers
             return View(category);
         }
 
-        // Delete: Accessible to Admin only
-        [Authorize(Roles = "Admin")]
+        // GET: Admin/Categories/Delete/5
         public async Task<IActionResult> Delete(int id)
         {
             var category = await _categoryRepository.GetByIdAsync(id);
@@ -104,9 +93,9 @@ namespace Bai3_WebBanHang.Areas.Admin.Controllers
             return View(category);
         }
 
-        // DeleteConfirmed: Accessible to Admin only
+        // POST: Admin/Categories/Delete/5
         [HttpPost, ActionName("Delete")]
-        [Authorize(Roles = "Admin")]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             await _categoryRepository.DeleteAsync(id);

@@ -22,11 +22,15 @@ namespace Bai3_WebBanHang.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
+        // ===== 1. THÊM USERMANAGER VÀO ĐÂY =====
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public LoginModel(SignInManager<ApplicationUser> signInManager, ILogger<LoginModel> logger)
+        // ===== 2. CẬP NHẬT CONSTRUCTOR ĐỂ NHẬN USERMANAGER =====
+        public LoginModel(SignInManager<ApplicationUser> signInManager, ILogger<LoginModel> logger, UserManager<ApplicationUser> userManager)
         {
             _signInManager = signInManager;
             _logger = logger;
+            _userManager = userManager; // Gán giá trị
         }
 
         [BindProperty]
@@ -82,6 +86,15 @@ namespace Bai3_WebBanHang.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
+
+                    // ===== 3. CẬP NHẬT LASTLOGINDATE KHI ĐĂNG NHẬP THÀNH CÔNG =====
+                    var user = await _userManager.FindByEmailAsync(Input.Email);
+                    if (user != null)
+                    {
+                        user.LastLoginDate = DateTime.UtcNow; // Dùng UtcNow để chuẩn thời gian
+                        await _userManager.UpdateAsync(user);
+                    }
+                    // =============================================================
 
                     // Kiểm tra nếu returnUrl hợp lệ thì dùng, nếu không thì chuyển về trang chính
                     if (!string.IsNullOrEmpty(returnUrl) && Url.IsLocalUrl(returnUrl))

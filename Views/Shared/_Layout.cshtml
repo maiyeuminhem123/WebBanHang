@@ -3,233 +3,162 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - WebBanHang</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Bai3_WebBanHang.styles.css" asp-append-version="true" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <title>@ViewData["Title"] - Tiệm Tạp Hoá</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+
+    @await RenderSectionAsync("Styles", required: false)
 
     <style>
-        body {
-            font-family: "Segoe UI", sans-serif;
-            font-size: 1rem;
-            background-color: #f8f9fa;
-            display: flex;
-            min-height: 100vh;
-            flex-direction: column;
+        :root {
+            --primary-color: #2e8b57;
+            --secondary-color: #2c3e50;
+            --background-color: #f4f4f4;
+            --font-family: 'Be Vietnam Pro', sans-serif;
         }
 
-        /* Navbar chính */
-        .navbar {
-            background-color: #dc3545;
-            padding: 8px 0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        body {
+            font-family: var(--font-family);
+            background-color: var(--background-color);
+            padding-top: 105px; /* Chừa không gian cho header cố định */
+        }
+
+        .site-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1030;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .main-navbar {
+            background-color: #7988b3;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .menu-bar {
+            background-color: var(--primary-color);
         }
 
         .navbar-brand {
-            color: #fff !important;
-            font-weight: bold;
-            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary-color) !important;
         }
 
-        .navbar-toggler {
-            border: none;
+        .search-bar .form-control {
+            border-radius: 8px;
+            background-color: #f5f5f5;
+            border-color: #f5f5f5;
         }
 
-        .nav-link {
-            color: #fff !important;
-            font-size: 1rem;
-            margin-right: 10px;
-        }
-
-            .nav-link:hover {
-                text-decoration: underline;
-            }
-
-        /* Search bar */
-        .search-bar {
-            flex-grow: 1;
-            max-width: 300px;
-        }
-
-            .search-bar input {
-                border-radius: 4px 0 0 4px;
-                border: 1px solid #ced4da;
-                padding: 6px 10px;
-                width: 100%;
-            }
-
-            .search-bar button {
-                border-radius: 0 4px 4px 0;
-                background-color: #ffc107;
-                border: 1px solid #ffc107;
-                padding: 6px 12px;
-                font-weight: 500;
-            }
-
-        /* Icons */
-        .account-icon, .cart-icon {
-            color: #fff;
-            font-size: 1rem;
-            margin-left: 15px;
+        .nav-actions .nav-link, .nav-actions .btn {
+            font-size: 0.85rem;
+            color: var(--secondary-color);
             display: flex;
             align-items: center;
-            position: relative;
+            gap: 0.5rem;
         }
 
-            .account-icon i, .cart-icon i {
-                font-size: 1.2rem;
-                margin-right: 5px;
-            }
-
-            .cart-icon .badge {
-                position: absolute;
-                top: -4px;
-                right: -10px;
-                background-color: #ffc107;
-                color: #000;
-                font-size: 0.7rem;
-                padding: 2px 5px;
-                border-radius: 50%;
-            }
-
-        /* Dropdown */
-        .dropdown-menu {
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            font-size: 0.95rem;
-        }
-
-        .dropdown-item:hover {
-            background-color: #f1f1f1;
-        }
-
-        /* Thanh điều hướng phụ */
-        .sub-navbar {
-            background-color: #fff;
-            border-bottom: 1px solid #e74c3c;
-            padding: 10px 0;
-        }
-
-            .sub-navbar .nav-link {
-                color: #333 !important;
-                font-weight: 500;
-                padding: 10px 15px;
-            }
-
-                .sub-navbar .nav-link:hover {
-                    color: #e74c3c !important;
-                }
-
-        /* Footer */
-        footer {
-            background-color: #343a40;
-            color: white;
-            text-align: center;
-            padding: 15px 0;
+        .menu-bar .nav-link {
+            color: white !important;
+            font-weight: 500;
             font-size: 0.9rem;
-            margin-top: auto;
+            padding: 0.6rem 1rem;
+            text-transform: uppercase;
+            border-radius: 4px;
+            transition: background-color 0.2s ease;
         }
 
-            footer a {
-                color: #17a2b8;
-                text-decoration: none;
+            .menu-bar .nav-link:hover, .menu-bar .dropdown:hover .nav-link {
+                background-color: rgba(0,0,0,0.1);
             }
 
-                footer a:hover {
-                    text-decoration: underline;
-                }
+        .dropdown-menu {
+            border-radius: 8px;
+            border: 1px solid #eee;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin-top: 0; /* Gỡ bỏ khoảng cách mặc định */
+        }
 
-        /* Nội dung chính */
-        .main-content {
-            flex-grow: 1;
-            padding: 20px;
+        .site-footer {
+            background-color: #fff;
+            border-top: 1px solid #eee;
+            padding: 2rem 0;
+            margin-top: 2rem;
         }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container d-flex align-items-center justify-content-between">
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                🏪 Tiệm Tạp Hoá
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
-                <ul class="navbar-nav me-2">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Danh Mục
+    <header class="site-header">
+        <!-- BỌC TẤT CẢ VÀO MỘT THẺ NAV DUY NHẤT -->
+        <nav class="navbar navbar-expand-lg flex-column p-0">
+            <!-- Tầng trên: Logo, tìm kiếm, giỏ hàng -->
+            <div class="main-navbar w-100">
+                <div class="container d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center gap-4">
+                        <a class="navbar-brand fs-4" asp-area="" asp-controller="Home" asp-action="Index">
+                            <i class="bi bi-shop"></i> TạpHoá.Vn
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
-                            @await Component.InvokeAsync("CategoryMenu")
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex search-bar" role="search">
-                    <input class="form-control" type="search" placeholder="Tìm kiếm..." aria-label="Search">
-                    <button class="btn" type="submit">Tìm</button>
-                </form>
+                        <form class="d-none d-lg-flex search-bar" role="search" style="min-width: 400px;">
+                            <input class="form-control" type="search" placeholder="Bạn tìm gì hôm nay?" aria-label="Search">
+                        </form>
+                    </div>
 
-                <div class="d-flex align-items-center">
-                    <partial name="_LoginPartial" />
-                    <a class="cart-icon position-relative" asp-controller="ShoppingCart" asp-action="Index">
-                        <i class="bi bi-cart"></i> Giỏ hàng
-                        <span class="badge">0</span>
-                    </a>
+                    <div class="nav-actions d-flex align-items-center gap-3">
+                        <a class="nav-link position-relative" asp-controller="ShoppingCart" asp-action="Index">
+                            <i class="bi bi-cart fs-4"></i>
+                            <span class="badge bg-danger rounded-pill position-absolute top-0 start-100 translate-middle" style="font-size: 0.6em; padding: 2px 5px;">0</span>
+                        </a>
+                        <partial name="_LoginPartial" />
+                        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenuCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
 
-    <nav class="sub-navbar">
+            <!-- Tầng dưới: Menu chính -->
+            <div class="menu-bar w-100">
+                <div class="container">
+                    <div class="collapse navbar-collapse" id="mainMenuCollapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Index">Trang Chủ</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProducts" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sản Phẩm
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+                                    @await Component.InvokeAsync("CategoryMenu")
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Khuyến Mãi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <footer class="site-footer">
         <div class="container">
-            <ul class="navbar-nav d-flex flex-row justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Home" asp-action="Index">TRANG CHỦ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Home" asp-action="ArtGoods">HÀNG HOẠ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Home" asp-action="Promotions">KHUYẾN MÃI</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Home" asp-action="Services">DỊCH VỤ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Home" asp-action="NewProducts">SẢN PHẨM MỚI</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Home" asp-action="Wholesale">DANH MỤC GIẢ SỈ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Home" asp-action="Blog">BLOG</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Home" asp-action="Contact">LIÊN HỆ</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="main-content container mt-3">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer>
-        <div class="container">
-            © 2025 - WebBanHang | <a asp-area="" asp-controller="Home" asp-action="Privacy">Chính sách bảo mật</a>
+            <p class="text-center text-muted">&copy; @DateTime.Now.Year - TạpHoá.Vn</p>
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+

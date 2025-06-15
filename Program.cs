@@ -13,10 +13,14 @@ builder.Services.AddRazorPages();
 
 // 2. Cấu hình DbContext
 builder.Services.AddDbContext<BanHangContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), sqlServerOptions =>
+    {
+        // ==> DÒNG CODE QUAN TRỌNG ĐỂ SỬA LỖI <==
+        // Báo cho EF Core tạo SQL tương thích với SQL Server 2014 để tránh lỗi cú pháp
+        sqlServerOptions.UseCompatibilityLevel(120);
+    }));
 
-// 3. Cấu hình Identity (Đã sửa lỗi, chỉ giữ lại một phương thức đăng ký)
-// Cấu hình này hỗ trợ cả User (ApplicationUser) và Role (IdentityRole)
+// 3. Cấu hình Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<BanHangContext>()
     .AddDefaultTokenProviders()
@@ -42,6 +46,7 @@ builder.Services.AddSession(options =>
 // 5. Đăng ký Repository (Dependency Injection)
 builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 
 
 var app = builder.Build();

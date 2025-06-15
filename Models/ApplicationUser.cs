@@ -9,5 +9,6 @@ namespace Bai3_WebBanHang.Models
         public string? FullName { get; set; }
         public string? Address { get; set; }
         public string? Age { get; set; }
+        public DateTime? LastLoginDate { get; set; }
     }
 }

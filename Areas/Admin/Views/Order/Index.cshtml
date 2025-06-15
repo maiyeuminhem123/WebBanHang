@@ -5,193 +5,245 @@
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<div class="container-fluid mt-4">
-    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Quản Lý Đơn Hàng</h1>
-        <div class="btn-toolbar mb-2 mb-md-0">
-            <button id="confirmSelected" class="btn btn-sm btn-success me-2 shadow-sm" disabled>
-                <i class="fas fa-check-circle me-1"></i> Xác Nhận Chọn
-            </button>
-            <button id="cancelSelected" class="btn btn-sm btn-warning me-2 shadow-sm" disabled>
-                <i class="fas fa-times-circle me-1"></i> Hủy Chọn
-            </button>
-            <button id="deleteSelected" class="btn btn-sm btn-danger shadow-sm" disabled>
-                <i class="fas fa-trash-alt me-1"></i> Xóa Chọn
-            </button>
-        </div>
-    </div>
+<style>
+    /* Thêm một lớp CSS nhỏ để đảm bảo các nút hành động trên cùng một dòng và có khoảng cách */
+    .action-buttons {
+        display: flex;
+        gap: 0.5rem; /* Tạo khoảng cách giữa các nút */
+    }
 
-    <div class="card shadow-sm border-0">
-        <div class="card-body p-0">
-            <div class="table-responsive">
-                <table class="table table-hover table-bordered align-middle mb-0">
-                    <thead class="table-dark">
-                        <tr>
-                            <th class="text-center" style="width: 5%;"><input type="checkbox" id="selectAll" /></th>
-                            <th style="width: 10%;">Mã Đơn</th>
-                            <th>Khách Hàng</th>
-                            <th>Ngày Đặt</th>
-                            <th class="text-end">Tổng Tiền</th>
-                            <th class="text-center">Trạng Thái</th>
-                            <th class="text-center" style="width: 15%;">Hành Động</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var order in Model)
-                        {
-                            <tr>
-                                <td class="text-center"><input type="checkbox" class="select-order" value="@order.Id" data-status="@order.OrderStatus" /></td>
-                                <td><strong>#@order.Id</strong></td>
-                                <td>@order.CustomerName</td>
-                                <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
-                                <td class="text-end fw-bold text-danger">@order.TotalPrice.ToString("N0") ₫</td>
-                                <td class="text-center">
-                                    @if (order.OrderStatus == "Đang chờ thanh toán")
-                                    {
-                                        <span class="badge bg-warning text-dark">Chờ thanh toán</span>
-                                    }
-                                    else if (order.OrderStatus == "Đang xử lý")
-                                    {
-                                        <span class="badge bg-primary">Đang xử lý</span>
-                                    }
-                                    else if (order.OrderStatus == "Đã thanh toán" || order.OrderStatus == "Đã xác nhận")
-                                    {
-                                        <span class="badge bg-success">Đã xác nhận</span>
-                                    }
-                                    else if (order.OrderStatus == "Đang giao hàng")
-                                    {
-                                        <span class="badge bg-info">Đang giao hàng</span>
-                                    }
-                                    else if (order.OrderStatus == "Đã giao thành công")
-                                    {
-                                        <span class="badge bg-secondary">Hoàn tất</span>
-                                    }
-                                    else if (order.OrderStatus == "Đã hủy")
-                                    {
-                                        <span class="badge bg-danger">Đã hủy</span>
-                                    }
-                                    else
-                                    {
-                                        <span class="badge bg-dark">@order.OrderStatus</span>
-                                    }
-                                </td>
-                                <td class="text-center">
-                                    <!-- SỬA LỖI Ở ĐÂY: Thêm asp-area -->
-                                    <a asp-area="Admin" asp-controller="Order" asp-action="Details" asp-route-id="@order.Id" class="btn btn-sm btn-info" title="Xem chi tiết">
-                                        <i class="fas fa-eye"></i> Xem
-                                    </a>
-                                    <button class="btn btn-sm btn-danger delete-order" data-id="@order.Id" title="Xóa đơn hàng">
-                                        <i class="fas fa-trash-alt"></i>
-                                    </button>
-                                </td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
+    /* Căn giữa nội dung trong các ô của bảng theo chiều dọc */
+    .table td, .table th {
+        vertical-align: middle;
+    }
+</style>
+
+<div class="container-fluid mt-4">
+    <div class="card shadow-lg border-0">
+        <div class="card-header bg-light py-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <h3 class="mb-0 text-primary">
+                    <i class="fas fa-clipboard-list me-2"></i>@ViewData["Title"]
+                </h3>
             </div>
+        </div>
+
+        <div class="card-body">
+            <div id="notification-area" class="mb-3"></div>
+
+            <form id="deleteForm" method="post" asp-action="DeleteSelected">
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-danger" id="deleteSelected" disabled>
+                        <i class="fas fa-trash-alt me-1"></i> Xóa Mục Đã Chọn
+                    </button>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th style="width: 5%;"><input type="checkbox" id="selectAll"></th>
+                                <th>Mã Đơn Hàng</th>
+                                <th>Khách Hàng</th>
+                                <th>Ngày Đặt</th>
+                                <th>Tổng Tiền</th>
+                                <th>Trạng Thái</th>
+                                <th class="text-center">Hành Động</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (!Model.Any())
+                            {
+                                <tr>
+                                    <td colspan="7" class="text-center text-muted py-4">
+                                        <i class="fas fa-info-circle me-2"></i>Không có đơn hàng nào.
+                                    </td>
+                                </tr>
+                            }
+                            else
+                            {
+                                @foreach (var order in Model)
+                                {
+                                    <tr>
+                                        <td><input type="checkbox" name="ids" value="@order.Id" class="select-item"></td>
+                                        <td><span class="fw-bold">@order.OrderCode</span></td>
+                                        <td>@order.CustomerName</td>
+                                        <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+                                        <td class="fw-bold">@order.TotalAmount.ToString("N0") ₫</td>
+                                        <td>
+                                            <span class="badge rounded-pill @(order.OrderStatus == "Pending" ? "bg-warning text-dark" : order.OrderStatus == "Confirmed" ? "bg-primary" : order.OrderStatus == "Shipping" ? "bg-info text-dark" : order.OrderStatus == "Delivered" ? "bg-success" : order.OrderStatus == "Cancelled" ? "bg-danger" : "bg-secondary")">
+                                                @(ViewBag.StatusDisplayNames != null && order.OrderStatus != null && ViewBag.StatusDisplayNames.ContainsKey(order.OrderStatus) ? ViewBag.StatusDisplayNames[order.OrderStatus] : order.OrderStatus ?? "Chưa xác định")
+                                            </span>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="action-buttons justify-content-center">
+                                                <a asp-action="Details" asp-route-id="@order.Id" class="btn btn-sm btn-outline-primary" title="Xem Chi Tiết">
+                                                    <i class="fas fa-eye"></i>
+                                                </a>
+                                                <button class="btn btn-sm btn-outline-danger delete-btn" data-id="@order.Id" title="Xóa Đơn Hàng">
+                                                    <i class="fas fa-trash"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                @{
+                    var page = ViewBag.Page;
+                    var pageSize = ViewBag.PageSize;
+                    var totalPages = ViewBag.TotalPages;
+                }
+                @if (totalPages > 1)
+                {
+                    <nav aria-label="Page navigation" class="mt-4 d-flex justify-content-end">
+                        <ul class="pagination">
+                            <li class="page-item @(page == 1 ? "disabled" : "")">
+                                <a class="page-link" asp-action="Index" asp-route-page="@(page - 1)" asp-route-pageSize="@pageSize">
+                                    <span>&laquo;</span>
+                                </a>
+                            </li>
+                            @for (var i = 1; i <= totalPages; i++)
+                            {
+                                <li class="page-item @(i == page ? "active" : "")">
+                                    <a class="page-link" asp-action="Index" asp-route-page="@i" asp-route-pageSize="@pageSize">@i</a>
+                                </li>
+                            }
+                            <li class="page-item @(page == totalPages ? "disabled" : "")">
+                                <a class="page-link" asp-action="Index" asp-route-page="@(page + 1)" asp-route-pageSize="@pageSize">
+                                    <span>&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                }
+            </form>
         </div>
     </div>
 </div>
 
 @section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    @Html.AntiForgeryToken()
     <script>
         $(document).ready(function () {
-            // Hàm xử lý chung cho các action hàng loạt
-            function handleBulkAction(actionUrl, confirmMessage, dataPayload) {
-                const selectedIds = $('.select-order:checked').map(function () {
-                    return $(this).val();
-                }).get();
-
-                if (selectedIds.length === 0) {
-                    alert('Vui lòng chọn ít nhất một đơn hàng.');
-                    return;
-                }
-
-                if (confirm(confirmMessage)) {
-                    dataPayload.ids = selectedIds;
-
-                    $.ajax({
-                        url: actionUrl,
-                        type: 'POST',
-                        traditional: true,
-                        data: dataPayload,
-                        success: function (response) {
-                            alert(response.message);
-                            if (response.success) location.reload();
-                        },
-                        error: function () {
-                            alert('Có lỗi xảy ra, vui lòng thử lại.');
-                        }
-                    });
-                }
-            }
-
-            // SỬA LỖI Ở ĐÂY: Thêm new { area = "Admin" } vào Url.Action
-            $('#confirmSelected').on('click', function () {
-                handleBulkAction(
-                    '@Url.Action("UpdateSelectedStatus", "Order", new { area = "Admin" })',
-                    'Bạn có chắc chắn muốn XÁC NHẬN các đơn hàng được chọn?',
-                    { status: 'Đã xác nhận' }
-                );
-            });
-
-            $('#cancelSelected').on('click', function () {
-                handleBulkAction(
-                    '@Url.Action("UpdateSelectedStatus", "Order", new { area = "Admin" })',
-                    'Bạn có chắc chắn muốn HỦY các đơn hàng đã chọn?',
-                    { status: 'Đã hủy' }
-                );
-            });
-
-            $('#deleteSelected').on('click', function () {
-                handleBulkAction(
-                    '@Url.Action("DeleteSelected", "Order", new { area = "Admin" })',
-                    'Bạn có chắc chắn muốn XÓA VĨNH VIỄN các đơn hàng đã chọn? Hành động này không thể hoàn tác.',
-                    {}
-                );
-            });
-
-            $('.delete-order').on('click', function () {
-                const orderId = $(this).data('id');
-                if (confirm('Bạn có chắc chắn muốn xóa đơn hàng #' + orderId + '?')) {
-                     $.ajax({
-                        url: '@Url.Action("Delete", "Order", new { area = "Admin" })',
-                        type: 'POST',
-                        data: { id: orderId },
-                        success: function (response) {
-                            alert(response.message);
-                            if (response.success) location.reload();
-                        },
-                        error: function () {
-                            alert('Có lỗi xảy ra, vui lòng thử lại.');
-                        }
-                    });
-                }
-            });
-
-            // Logic chọn và bật/tắt nút
-            function toggleButtons() {
-                const anyChecked = $('.select-order:checked').length > 0;
-                const canConfirm = $('.select-order:checked[data-status="Đang chờ thanh toán"]').length > 0 || $('.select-order:checked[data-status="Đang xử lý"]').length > 0;
-
-                $('#confirmSelected').prop('disabled', !canConfirm);
-                $('#cancelSelected').prop('disabled', !anyChecked);
-                $('#deleteSelected').prop('disabled', !anyChecked);
-            }
-
+            // Select/Deselect All
             $('#selectAll').on('change', function () {
-                $('.select-order').prop('checked', this.checked);
-                toggleButtons();
+                $('.select-item').prop('checked', this.checked);
+                toggleDeleteButton();
             });
 
-            $('.select-order').on('change', function () {
-                if ($('.select-order:checked').length === $('.select-order').length) {
+            $('.select-item').on('change', function() {
+                if ($('.select-item:checked').length == $('.select-item').length) {
                     $('#selectAll').prop('checked', true);
                 } else {
                     $('#selectAll').prop('checked', false);
                 }
-                toggleButtons();
+                toggleDeleteButton();
             });
+
+            function toggleDeleteButton() {
+                $('#deleteSelected').prop('disabled', !$('.select-item:checked').length);
+            }
+
+            // Single Delete
+            $('.delete-btn').on('click', function () {
+                const id = $(this).data('id');
+                if (confirm('Bạn có chắc chắn muốn xóa đơn hàng này?')) {
+                    deleteOrder(id);
+                }
+            });
+
+            // Multi-delete form submission
+            $('#deleteForm').on('submit', function (e) {
+                e.preventDefault();
+                if (confirm('Bạn có chắc chắn muốn xóa các đơn hàng đã chọn?')) {
+                    const ids = $('.select-item:checked').map(function () {
+                        return $(this).val();
+                    }).get();
+                    if(ids.length > 0) {
+                        deleteSelectedOrders(ids);
+                    }
+                }
+            });
+
+            // AJAX function for single delete
+            function deleteOrder(id) {
+                $.ajax({
+                    url: '@Url.Action("Delete", "Order", new { area = "Admin" })',
+                    type: 'POST',
+                    data: {
+                        id: id,
+                        __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val()
+                    },
+                    beforeSend: function () {
+                        $('body').append('<div class="loading-overlay"><div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div></div>');
+                    },
+                    success: function (response) {
+                        showNotification(response.message, response.success ? 'success' : 'danger');
+                        if (response.success) {
+                            $(`input[value="${id}"]`).closest('tr').fadeOut(500, function() { $(this).remove(); });
+                            toggleDeleteButton();
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('AJAX Error:', xhr, status, error);
+                        showNotification('Đã có lỗi xảy ra. Vui lòng thử lại.', 'danger');
+                    },
+                    complete: function () {
+                        $('.loading-overlay').remove();
+                    }
+                });
+            }
+
+            // AJAX function for multi-delete
+            function deleteSelectedOrders(ids) {
+                $.ajax({
+                    url: '@Url.Action("DeleteSelected", "Order", new { area = "Admin" })',
+                    type: 'POST',
+                    data: {
+                        ids: ids,
+                        __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val()
+                    },
+                    traditional: true, // Important for sending arrays to MVC
+                    beforeSend: function () {
+                        $('body').append('<div class="loading-overlay"><div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div></div>');
+                    },
+                    success: function (response) {
+                        showNotification(response.message, response.success ? 'success' : 'danger');
+                        if (response.success) {
+                            ids.forEach(id => {
+                                $(`input[value="${id}"]`).closest('tr').fadeOut(500, function() { $(this).remove(); });
+                            });
+                            toggleDeleteButton();
+                            $('#selectAll').prop('checked', false);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('AJAX Error:', xhr, status, error);
+                        showNotification('Đã có lỗi xảy ra. Vui lòng thử lại.', 'danger');
+                    },
+                    complete: function () {
+                        $('.loading-overlay').remove();
+                    }
+                });
+            }
+
+            // Notification display function
+            function showNotification(message, type) {
+                const alertHtml = `<div class="alert alert-${type} alert-dismissible fade show" role="alert">
+                    ${message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>`;
+                $('#notification-area').html(alertHtml);
+                setTimeout(() => {
+                    $('.alert').fadeOut(500, function() { $(this).remove(); });
+                }, 3000);
+            }
         });
     </script>
 }

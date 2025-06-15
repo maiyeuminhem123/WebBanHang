@@ -1,0 +1,117 @@
+﻿@* Areas/Admin/Views/User/Details.cshtml *@
+@model Bai3_WebBanHang.Models.UserDetailViewModel
+
+@{
+    ViewData["Title"] = "Chi Tiết Tài Khoản";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid mt-4">
+    <div class="d-flex justify-content-between align-items-center pt-3 pb-2 mb-4 border-bottom">
+        <h1 class="h2">@ViewData["Title"]: <span class="text-primary">@Model.UserName</span></h1>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Quay Lại Danh Sách
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card shadow-sm mb-4">
+                <div class="card-header">
+                    <h5 class="mb-0"><i class="fas fa-user-circle me-2"></i>Thông Tin Cá Nhân</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Email:</strong> @Model.Email</p>
+                    <p><strong>Số điện thoại:</strong> @(Model.PhoneNumber ?? "Chưa có")</p>
+                    <p><strong>Vai trò:</strong> <span class="badge bg-success">@string.Join(", ", Model.Roles)</span></p>
+                </div>
+            </div>
+            <div class="card shadow-sm mb-4">
+                <div class="card-header">
+                    <h5 class="mb-0"><i class="fas fa-chart-line me-2"></i>Thống Kê Hoạt Động</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Ngày tham gia:</strong> @(Model.LockoutEnd?.ToString("dd/MM/yyyy") ?? "Không rõ")</p>
+                    <p>
+                        <strong>Lần cuối đăng nhập:</strong>
+                        @if (Model.LastLoginDate.HasValue)
+                        {
+                            <span>@Model.LastLoginDate.Value.ToString("dd/MM/yyyy HH:mm")</span>
+                        }
+                        else
+                        {
+                            <span class="text-muted">Chưa từng đăng nhập</span>
+                        }
+                    </p>
+                    <p>
+                        <strong>Thời gian còn lại:</strong>
+                        @if (Model.LastLoginDate.HasValue)
+                        {
+                            var daysInactive = (DateTime.UtcNow - Model.LastLoginDate.Value).Days;
+                            var daysRemaining = 300 - daysInactive;
+
+                            if (daysRemaining > 0)
+                            {
+                                // Thêm màu sắc để cảnh báo mức độ
+                                var textColor = daysRemaining <= 30 ? "text-danger" : (daysRemaining <= 90 ? "text-warning" : "text-success");
+                                <span class="fw-bold @textColor">Còn @daysRemaining ngày</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Đã quá hạn, sắp bị xóa</span>
+                            }
+                        }
+                        else
+                        {
+                            <span class="text-muted">Chưa có hoạt động</span>
+                        }
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="card shadow-sm mb-4">
+                <div class="card-header">
+                    <h5 class="mb-0"><i class="fas fa-history me-2"></i>Lịch Sử Đặt Hàng (@Model.Orders.Count() đơn)</h5>
+                </div>
+                <div class="card-body">
+                    @if (Model.Orders.Any())
+                    {
+                        <div class="table-responsive" style="max-height: 400px; overflow-y: auto;">
+                            <table class="table table-sm table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Mã Đơn</th>
+                                        <th>Ngày Đặt</th>
+                                        <th class="text-end">Tổng Tiền</th>
+                                        <th>Trạng Thái</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var order in Model.Orders)
+                                    {
+                                        <tr>
+                                            <td>@order.OrderCode</td>
+                                            <td>@order.OrderDate.ToString("dd/MM/yy")</td>
+                                            <td class="text-end">@order.TotalAmount.ToString("N0") ₫</td>
+                                            <td><span class="badge bg-info">@order.OrderStatus</span></td>
+                                            <td class="text-end">
+                                                <a asp-area="Admin" asp-controller="Order" asp-action="Details" asp-route-id="@order.Id" class="btn btn-xs btn-outline-primary">Xem</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="text-center text-muted">Khách hàng này chưa có đơn hàng nào.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

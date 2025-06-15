@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json; // Cần thêm thư viện này để dùng TempData
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,12 +25,11 @@ namespace Bai3_WebBanHang.Controllers
             BanHangContext context,
             UserManager<ApplicationUser> userManager)
         {
-            _productRepository = productRepository;
-            _context = context;
-            _userManager = userManager;
+            _productRepository = productRepository ?? throw new ArgumentNullException(nameof(productRepository));
+            _context = context ?? throw new ArgumentNullException(nameof(context));
+            _userManager = userManager ?? throw new ArgumentNullException(nameof(userManager));
         }
 
-        #region Cart Management
         // Hiển thị giỏ hàng
         public IActionResult Index()
         {
@@ -45,35 +44,74 @@ namespace Bai3_WebBanHang.Controllers
             if (product == null) return NotFound();
 
             var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
-            cart.AddItem(product, quantity);
+
+            var cartItem = cart.Items.FirstOrDefault(i => i.ProductId == productId);
+            if (cartItem != null)
+            {
+                cartItem.Quantity += quantity;
+            }
+            else
+            {
+                cart.Items.Add(new CartItem
+                {
+                    ProductId = productId,
+                    Name = product.Name,
+                    Price = product.Price,
+                    Quantity = quantity
+                });
+            }
 
             HttpContext.Session.SetObjectAsJson("Cart", cart);
             return RedirectToAction("Index");
         }
 
-        // Cập nhật giỏ hàng qua AJAX
-        [HttpPost]
-        public IActionResult UpdateCart(int productId, string action)
+        // Xóa sản phẩm khỏi giỏ hàng
+        public IActionResult RemoveFromCart(int productId)
+        {
+            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
+            if (cart != null)
+            {
+                cart.RemoveItem(productId);
+                HttpContext.Session.SetObjectAsJson("Cart", cart);
+            }
+            return RedirectToAction("Index");
+        }
+
+        // Tăng số lượng sản phẩm
+        public IActionResult IncreaseQuantity(int productId)
         {
             var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
-            var item = cart.Items.FirstOrDefault(p => p.ProductId == productId);
+            var cartItem = cart.Items.FirstOrDefault(i => i.ProductId == productId);
 
-            if (item != null)
+            if (cartItem != null)
             {
-                switch (action)
+                cartItem.Quantity++;
+            }
+
+            HttpContext.Session.SetObjectAsJson("Cart", cart);
+
+            return Json(new
+            {
+                Quantity = cartItem?.Quantity ?? 0,
+                TotalAmount = cart.Items.Sum(i => i.Price * i.Quantity)
+            });
+        }
+
+        // Giảm số lượng sản phẩm
+        public IActionResult DecreaseQuantity(int productId)
+        {
+            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
+            var cartItem = cart.Items.FirstOrDefault(i => i.ProductId == productId);
+
+            if (cartItem != null)
+            {
+                if (cartItem.Quantity > 1)
                 {
-                    case "increase":
-                        item.Quantity++;
-                        break;
-                    case "decrease":
-                        if (item.Quantity > 1)
-                            item.Quantity--;
-                        else
-                            cart.Items.Remove(item); // Xóa nếu giảm từ 1
-                        break;
-                    case "remove":
-                        cart.Items.Remove(item);
-                        break;
+                    cartItem.Quantity--;
+                }
+                else
+                {
+                    cart.Items.Remove(cartItem);
                 }
             }
 
@@ -82,62 +120,96 @@ namespace Bai3_WebBanHang.Controllers
             return Json(new
             {
                 success = true,
-                quantity = item?.Quantity ?? 0
+                Quantity = cartItem?.Quantity ?? 0,
+                TotalAmount = cart.Items.Sum(i => i.Price * i.Quantity)
             });
         }
-        #endregion
 
-        #region Checkout Flow
-        // Bước 1 - GET: Hiển thị form điền thông tin giao hàng
+        // Cập nhật giỏ hàng
+        [HttpPost]
+        public IActionResult UpdateCart(int productId, string action)
+        {
+            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
+            var item = cart.Items.FirstOrDefault(p => p.ProductId == productId);
+
+            if (item != null)
+            {
+                if (action == "increase")
+                {
+                    item.Quantity++;
+                }
+                else if (action == "decrease" && item.Quantity > 1)
+                {
+                    item.Quantity--;
+                }
+                else if (action == "remove" || (action == "decrease" && item.Quantity == 1))
+                {
+                    cart.Items.Remove(item);
+                }
+            }
+
+            HttpContext.Session.SetObjectAsJson("Cart", cart);
+
+            return Json(new
+            {
+                success = true,
+                quantity = item?.Quantity ?? 0,
+                total = cart.Items.Sum(i => i.Price * i.Quantity).ToString("#,##0") + " VND"
+            });
+        }
+
+        // Bước 1: Hiển thị form điền thông tin giao hàng
         [HttpGet]
         public IActionResult Checkout()
         {
             var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
             if (!cart.Items.Any())
             {
-                TempData["Error"] = "Giỏ hàng của bạn đang trống để có thể thanh toán.";
+                TempData["Error"] = "Giỏ hàng đang trống.";
                 return RedirectToAction("Index");
             }
 
-            // Chuẩn bị ViewBag cho các dropdown địa chỉ
-            ViewBag.Districts = GetHCMCDistricts();
-            ViewBag.Wards = GetWards();
-
             var order = new Order
             {
-                TotalPrice = cart.GetTotalPrice()
+                TotalAmount = cart.Items.Sum(i => i.Price * i.Quantity)
             };
+
+            ViewBag.Districts = GetHCMCDistricts();
+            ViewBag.Wards = GetWards();
 
             return View(order);
         }
 
-        // Bước 1 - POST: Xử lý thông tin giao hàng và chuyển đến bước 2 (Chọn thanh toán)
+        // Bước 1: Xử lý thông tin giao hàng và chuyển sang chọn phương thức thanh toán
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Checkout(Order order)
+        public IActionResult Checkout(Order order, string province, string district, string ward, string street)
         {
             var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
             if (cart == null || !cart.Items.Any())
             {
+                TempData["Error"] = "Giỏ hàng đang trống.";
                 return RedirectToAction("Index");
             }
 
             if (!ModelState.IsValid)
             {
-                // Nếu có lỗi, tải lại dropdowns và hiển thị lại form với lỗi
                 ViewBag.Districts = GetHCMCDistricts();
                 ViewBag.Wards = GetWards();
                 return View(order);
             }
 
-            // Lưu tạm thông tin Order vào TempData để dùng ở bước tiếp theo
-            order.TotalPrice = cart.GetTotalPrice();
+            // Kết hợp địa chỉ từ các trường
+            order.ShippingAddress = $"{street}, {ward}, {district}, {province}";
+            order.TotalAmount = cart.Items.Sum(i => i.Price * i.Quantity);
+
+            // Lưu tạm thông tin order vào TempData
             TempData["PendingOrder"] = JsonConvert.SerializeObject(order);
 
             return RedirectToAction("PaymentMethod");
         }
 
-        // Bước 2 - GET: Hiển thị trang chọn phương thức thanh toán
+        // Bước 2: Hiển thị chọn phương thức thanh toán
         [HttpGet]
         public IActionResult PaymentMethod()
         {
@@ -149,19 +221,53 @@ namespace Bai3_WebBanHang.Controllers
 
             var order = JsonConvert.DeserializeObject<Order>(pendingOrderJson);
             var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
+            ViewBag.Cart = cart;
+            ViewBag.PaymentMethods = GetActivePaymentMethods();
 
-            ViewBag.Cart = cart; // Gửi thông tin giỏ hàng qua ViewBag để hiển thị
-
-            // Giữ lại TempData để dùng cho bước cuối cùng
             TempData.Keep("PendingOrder");
-
             return View(order);
         }
 
-        // Bước 3 - POST: Xử lý cuối cùng, lưu đơn hàng vào DB
+        // Bước 2: Nhận phương thức thanh toán và chuyển sang xác nhận đơn hàng
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> ProcessOrder(string paymentMethod)
+        public IActionResult PaymentMethod(string paymentMethod)
+        {
+            var pendingOrderJson = TempData["PendingOrder"] as string;
+            if (string.IsNullOrEmpty(pendingOrderJson))
+            {
+                return RedirectToAction("Checkout");
+            }
+
+            var order = JsonConvert.DeserializeObject<Order>(pendingOrderJson);
+            order.PaymentMethod = paymentMethod;
+            TempData["PendingOrder"] = JsonConvert.SerializeObject(order);
+
+            return RedirectToAction("ConfirmOrder");
+        }
+
+        // Bước 3: Hiển thị xác nhận đơn hàng
+        [HttpGet]
+        public IActionResult ConfirmOrder()
+        {
+            var pendingOrderJson = TempData["PendingOrder"] as string;
+            if (string.IsNullOrEmpty(pendingOrderJson))
+            {
+                return RedirectToAction("Checkout");
+            }
+
+            var order = JsonConvert.DeserializeObject<Order>(pendingOrderJson);
+            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
+            ViewBag.Cart = cart;
+
+            TempData.Keep("PendingOrder");
+            return View(order);
+        }
+
+        // Bước 3: Lưu đơn hàng vào DB
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ProcessOrder()
         {
             var pendingOrderJson = TempData["PendingOrder"] as string;
             if (string.IsNullOrEmpty(pendingOrderJson))
@@ -177,30 +283,27 @@ namespace Bai3_WebBanHang.Controllers
             }
 
             var user = await _userManager.GetUserAsync(User);
+            if (user == null) return Unauthorized();
 
-            // Hoàn thiện thông tin đơn hàng
             order.UserId = user.Id;
             order.OrderDate = DateTime.UtcNow;
-            order.TotalPrice = cart.GetTotalPrice();
-            order.PaymentMethod = paymentMethod;
+            order.TotalAmount = cart.Items.Sum(i => i.Price * i.Quantity);
             order.OrderDetails = cart.Items.Select(i => new OrderDetail
             {
                 ProductId = i.ProductId,
                 Quantity = i.Quantity,
                 Price = i.Price
             }).ToList();
-
-            // Lưu vào cơ sở dữ liệu
+            order.OrderCode = "DH" + DateTime.Now.ToString("yyMMddHHmmss") + new Random().Next(10, 99);
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
 
-            // Xóa giỏ hàng sau khi đã đặt hàng thành công
             HttpContext.Session.Remove("Cart");
 
             return RedirectToAction("OrderCompleted", new { orderId = order.Id });
         }
 
-        // Bước 4 - GET: Hiển thị trang hoàn tất đơn hàng
+        // Bước 4: Hiển thị trang hoàn tất đơn hàng
         [HttpGet]
         public async Task<IActionResult> OrderCompleted(int orderId)
         {
@@ -211,15 +314,20 @@ namespace Bai3_WebBanHang.Controllers
 
             if (order == null)
             {
-                return NotFound();
+                TempData["Error"] = "Không tìm thấy đơn hàng.";
+                return RedirectToAction("Index");
             }
+
             return View(order);
         }
 
-        #endregion
+        // Lấy danh sách phương thức thanh toán đang hoạt động
+        private List<PaymentMethod> GetActivePaymentMethods()
+        {
+            return _context.PaymentMethods.Where(pm => pm.IsActive).ToList();
+        }
 
-        #region Address Helper Methods
-        // HÀM LẤY DỮ LIỆU ĐỊA CHỈ - Đã xóa các hàm trùng lặp
+        // Lấy danh sách Quận/Huyện của TP.HCM
         private List<string> GetHCMCDistricts()
         {
             return new List<string>
@@ -232,6 +340,7 @@ namespace Bai3_WebBanHang.Controllers
             };
         }
 
+        // Lấy danh sách Phường/Xã theo Quận/Huyện
         private Dictionary<string, List<string>> GetWards()
         {
             return new Dictionary<string, List<string>>
@@ -253,15 +362,14 @@ namespace Bai3_WebBanHang.Controllers
                 { "Quận Gò Vấp", new List<string> { "Phường 1", "Phường 3", "Phường 4", "Phường 5", "Phường 6", "Phường 7", "Phường 8", "Phường 9", "Phường 10", "Phường 11", "Phường 12", "Phường 13", "Phường 14", "Phường 15", "Phường 16", "Phường 17" } },
                 { "Quận Phú Nhuận", new List<string> { "Phường 1", "Phường 2", "Phường 3", "Phường 4", "Phường 5", "Phường 7", "Phường 8", "Phường 9", "Phường 10", "Phường 11", "Phường 13", "Phường 15", "Phường 17" } },
                 { "Quận Tân Bình", new List<string> { "Phường 1", "Phường 2", "Phường 3", "Phường 4", "Phường 5", "Phường 6", "Phường 7", "Phường 8", "Phường 9", "Phường 10", "Phường 11", "Phường 12", "Phường 13", "Phường 14", "Phường 15" } },
-                { "Quận Tân Phú", new List<string> { "Phường Hiệp Tân", "Phường Hòa Thạnh", "Phường Phú Thạnh", "Phường Phú Thọ Hòa", "Phường Phú Trung", "Phường Sơn Kỳ", "Phường Tân Quý", "Phường Tân Sơn Nhì", "Phường Tân Thành", "Phường Tây Thạnh" } },
+                { "Quận Tân Phú", new List<string> { "Phường Hiệp Tân", "Phường Hòa Thạnh", "Phường Phú Thạnh", "Phường Phú Thọ Hòa", "Phường Phú Trung", "Phường Sơn Kỳ", "Phường Tân Quý", "Phường Tân Sơn Nhì", "Phường Tân Thành", "Phường Tây Thạnh", "Phường Trung Mỹ Tây" } },
                 { "Quận Thủ Đức", new List<string> { "Phường Bình Chiểu", "Phường Bình Thọ", "Phường Hiệp Bình Chánh", "Phường Hiệp Bình Phước", "Phường Linh Chiểu", "Phường Linh Đông", "Phường Linh Tây", "Phường Linh Trung", "Phường Linh Xuân", "Phường Tam Bình", "Phường Tam Phú", "Phường Trường Thọ" } },
-                { "Huyện Bình Chánh", new List<string> { "Thị trấn Tân Túc", "Xã An Phú Tây", "Xã Bình Chánh", "Xã Bình Hưng", "Xã Bình Lợi", "Xã Đa Phước", "Xã Hưng Long", "Xã Lê Minh Xuân", "Xã Phạm Văn Hai", "Xã Phong Phú", "Xã Quy Đức", "Xã Tân Kiên", "Xã Tân Nhựt", "Xã Tân Quý Tây", "Xã Vĩnh Lộc A", "Xã Vĩnh Lộc B" } },
+                { "Huyện Bình Chánh", new List<string> { "Xã An Phú Tây", "Xã Bình Chánh", "Xã Bình Hưng", "Xã Bình Lợi", "Xã Đa Phước", "Xã Hưng Long", "Xã Lê Minh Xuân", "Xã Phong Phú", "Xã Quy Đức", "Xã Tân Kiên", "Xã Tân Nhựt", "Xã Tân Quý Tây", "Xã Vĩnh Lộc A", "Xã Vĩnh Lộc B" } },
                 { "Huyện Cần Giờ", new List<string> { "Thị trấn Cần Thạnh", "Xã An Thới Đông", "Xã Bình Khánh", "Xã Long Hòa", "Xã Lý Nhơn", "Xã Tam Thôn Hiệp", "Xã Thạnh An" } },
                 { "Huyện Củ Chi", new List<string> { "Thị trấn Củ Chi", "Xã An Nhơn Tây", "Xã An Phú", "Xã Bình Mỹ", "Xã Hòa Phú", "Xã Nhuận Đức", "Xã Phạm Văn Cội", "Xã Phú Hòa Đông", "Xã Phú Mỹ Hưng", "Xã Phước Hiệp", "Xã Phước Thạnh", "Xã Phước Vĩnh An", "Xã Tân An Hội", "Xã Tân Phú Trung", "Xã Tân Thạnh Đông", "Xã Tân Thạnh Tây", "Xã Tân Thông Hội", "Xã Thái Mỹ", "Xã Trung An", "Xã Trung Lập Hạ", "Xã Trung Lập Thượng" } },
                 { "Huyện Hóc Môn", new List<string> { "Thị trấn Hóc Môn", "Xã Bà Điểm", "Xã Đông Thạnh", "Xã Nhị Bình", "Xã Tân Hiệp", "Xã Tân Thới Nhì", "Xã Tân Xuân", "Xã Thới Tam Thôn", "Xã Trung Chánh", "Xã Xuân Thới Đông", "Xã Xuân Thới Sơn", "Xã Xuân Thới Thượng" } },
                 { "Huyện Nhà Bè", new List<string> { "Thị trấn Nhà Bè", "Xã Hiệp Phước", "Xã Long Thới", "Xã Nhơn Đức", "Xã Phú Xuân", "Xã Phước Kiển", "Xã Phước Lộc" } }
             };
         }
-        #endregion
     }
 }
